@@ -8,7 +8,7 @@ nav ul {
   text-align: right;
   position: fixed;
   width: 100%;
-  background-color: #5A142A;
+  background-color: #8F1D2C;
 }
 
 nav ul li {
@@ -26,14 +26,25 @@ nav ul li a {
   padding: 5px;
 }
 
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
 nav ul li a:hover {
   color: #DB2B30;
 }
   
 
   .intro {
+    display: flex;
+    flex-wrap: wrap;
     top: 0;
     background: #DB2B30;
+    justify-content: space-around;
     min-height: 55vh;
     padding-top: 45vh;
     /*   line-height: 100vh; */
@@ -41,6 +52,14 @@ nav ul li a:hover {
     height:96vh;
   border:solid; */
   background-color: #DB2B30;
+  }
+
+  .intro div {
+    /* border: 1px solid yellow; */
+    width: 400px;
+    /* height: 320px; */
+    text-align: center;
+    margin-bottom: 40px;
   }
   
   nav ul li a {
