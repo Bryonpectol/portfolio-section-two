@@ -1,4 +1,4 @@
-import { films } from './data/films.js/index.js'
+import { films } from './data/films.js/'
 import { planets } from '../data/planets.js'
 
 
