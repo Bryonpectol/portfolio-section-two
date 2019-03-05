@@ -1,3 +1,7 @@
+body {
+    background-color: midnightblue;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -6,6 +10,9 @@
 }
 
 .container div {
-   width: 120px;
-   height: 120px;
+   width: 250px;
+   height: 400px;
+   text-align: center;
+   font-style: italic;
+   font-size: 40px;
 }
