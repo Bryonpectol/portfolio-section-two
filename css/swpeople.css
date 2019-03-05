@@ -1,5 +1,5 @@
 body {
-    background-color: midnightblue;
+    /* background-color: midnightblue; */
 }
 
 .container {
@@ -10,9 +10,10 @@ body {
 }
 
 .container div {
-   width: 250px;
-   height: 400px;
+   width: 120px;
+   height: 120px;
+   margin: 10px;
    text-align: center;
-   font-style: italic;
-   font-size: 40px;
+   /* font-style: italic;
+   font-size: 40px; */
 }
