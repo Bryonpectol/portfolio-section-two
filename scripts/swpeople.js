@@ -1,5 +1,5 @@
 import { people } from '../data/people.js';
-
+import { planets } from '../data/planets.js';
 
 const men = people.filter(person => person.gender === 'male');
 const women = people.filter(person => person.gender === 'female');
@@ -7,8 +7,25 @@ const other = people.filter(person => (person.gender === 'n/a') ||
 (person.gender === 'Hermaphrodite') || (person.gender === 'none'));
 
 
-// console.log(men, women, other);
 
+
+
+const allHomeWorlds = people.map(person => {
+    let foundWorld = planets.find(element => {
+      return  element.url === person.homeworld
+    })
+    return {name: person.name, home:  person.homeworld}
+});
+
+console.log(allHomeWorlds);
+
+// const peopleAndPlanets = [...people, ...planets]
+
+// const homeWorld = peopleAndPlanets.find(element => {
+//     console.log(element.url, element.homeworld)
+// })
+
+// console.log(peopleAndPlanets);
 
 const mainContainer = document.createElement('div');
 
