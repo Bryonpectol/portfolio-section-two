@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1260px;
+}
+
+.container div {
+   width: 120px;
+   height: 120px;
+}
