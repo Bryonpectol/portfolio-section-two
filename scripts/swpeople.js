@@ -1,25 +1,61 @@
-import { people } from '../data/people.js';
-import { planets } from '../data/planets.js';
+import { people } from "../data/people.js";
+import { planets } from "../data/planets.js";
+
+
+
+const getLastNumber = (url) => {
+  let end = url.lastIndexOf('/')
+ 
+  let start = end -2
+  if(url.charAt(start) === '/') {
+    start++
+  }
+  return url.slice(start, end)
+}
+
+
+
+const allHomeWorlds = people.map(person => {
+  let foundWorld = planets.find(planet => {
+    return planet.url === person.homeworld;
+  });
+  let imageURL = getLastNumber(person.url)
+  return {
+    name: person.name,
+    home: foundWorld.name,
+    eye_color: person.eye_color,
+    imagePath: `https://starwars-visualguide.com/assets/img/characters/${imageURL}.jpg`
+  };
+});
 
 
 
 
+const mainContainer = document.createElement("div");
+
+mainContainer.className = "container";
+
+allHomeWorlds.forEach(person => {
+
+
+  let personElement = document.createElement('div');
+  let planetElement = document.createElement('p');
+  let imageElement = document.createElement('img');
+
+
+  personElement.className = 'box';
+  // planetElement.className = 'box';
+  // imageElement.className = 'box';
+  personElement.textContent = person.name;
+  planetElement.textContent = person.home;
+  imageElement.src = person.imagePath
 
 
 
 
-
-
-
-
-men.forEach((man) => {
-let manElement = document.createElement('div');
-manElement.className = 'box';
-manElement.textContent = man.name;
-let eyeColor = document.createElement('p');
-eyeColor.textContent = man.eye_color;
-manElement.appendChild(eyeColor);
-mainContainer.appendChild(manElement);
+  mainContainer.appendChild(personElement);
+  personElement.appendChild(planetElement);
+  personElement.appendChild(imageElement);
 });
 
 document.body.appendChild(mainContainer);
