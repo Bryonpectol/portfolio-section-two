@@ -32,14 +32,17 @@ h1 {
 h3 {
   text-align: center;
 }
+.para {
+  text-align: center;
+}
 
 nav ul li a:hover {
   color: #db2b30;
 }
 
 .intro {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   top: 0;
   /* background: #db2b30; */
   justify-content: space-around;
@@ -53,10 +56,10 @@ nav ul li a:hover {
 }
 
 .myintro {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   top: 0;
-  background-color: #db2b30;
+  background-color: #EDEAE5;
   justify-content: space-around;
   min-height: 55vh;
   padding-top: 10vh;
@@ -65,7 +68,7 @@ nav ul li a:hover {
   height: 96vh;
 }
 
-.intro div {
+.introdiv {
   /* border: 1px solid 5yellow; */
   width: 400px;
   /* height: 320px; */
@@ -83,7 +86,7 @@ nav ul li a:hover {
 }
 
 .work {
-  background-color: #8f1d2c;
+  background-color: #9FEDD7;
 }
 
 .work-header {
@@ -132,11 +135,13 @@ figcaption {
 
 .h1 {
   margin: 0px;
+  padding: 0px;
   text-align: center;
 }
 
 .para {
   text-align: center;
+  padding-bottom: 150px;
 }
 
 #contact-div {
@@ -229,7 +234,7 @@ figcaption {
 }
 
 footer {
-  background-color: #211426;
+  background-color: #026670;
 }
 
 footer p {
