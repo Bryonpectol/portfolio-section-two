@@ -44,8 +44,8 @@ allHomeWorlds.forEach(person => {
 
 
   personElement.className = 'box';
-  // planetElement.className = 'box';
-  // imageElement.className = 'box';
+  
+  
   personElement.textContent = person.name;
   planetElement.textContent = person.home;
   imageElement.src = person.imagePath
