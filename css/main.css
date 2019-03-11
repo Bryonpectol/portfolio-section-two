@@ -80,6 +80,7 @@ nav ul li a:hover {
 .hisintro {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   /* text-align: center; */
   top: 0;
   background-color: #EDEAE5;
@@ -91,6 +92,7 @@ nav ul li a:hover {
   height: 96vh;
   color: #008080;
   font-family: 'Righteous', cursive;
+  text-decoration: none;
 }
 
 .noline {
