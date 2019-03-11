@@ -150,6 +150,7 @@ nav ul li a:hover {
 .project-tile {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 figure {
