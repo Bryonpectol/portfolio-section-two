@@ -15,7 +15,7 @@ nav ul li {
   margin: 55px;
   margin-bottom: 15px;
   margin-top: 25px;
-  border: solid 2px #140a25;
+  /* border: solid 2px #140a25; */
   color: #140a25;
 }
 
@@ -124,6 +124,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #9FEDD7;
+  border: 2px solid #9FEDD7;
 }
 
 .work {
@@ -271,6 +272,20 @@ figcaption {
     line-height: normal;
     flex-wrap: wrap;
   }
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 27.5%;
+  width: 700px;
+  /* background-color: #d1c7b5; */
+}
+
+.videodiv {
+  background-color: #EDEAE5;
+  /* background-clip: border-box; */
 }
 
 .contact-center {
