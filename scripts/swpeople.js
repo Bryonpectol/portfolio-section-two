@@ -59,3 +59,4 @@ allHomeWorlds.forEach(person => {
 });
 
 document.body.appendChild(mainContainer);
+
