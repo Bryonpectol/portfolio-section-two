@@ -18,6 +18,13 @@
     /* border: solid 2px #140a25; */
     color: #140a25;
   }
+
+  .navimg {
+    display: inline-block;
+    /* padding-top: 25px; */
+    width: 30px;
+    height: 30px;
+  }
   
   nav ul li a {
     color: #140a25;
@@ -170,7 +177,7 @@
   .work-header {
     padding: 5px;
     text-align: center;
-    color: #026670;
+    color: #008080;
     font-family: 'Courgette', cursive;
   }
   
