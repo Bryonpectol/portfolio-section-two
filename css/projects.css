@@ -89,7 +89,7 @@
     margin-left: 35%;
     padding-top: 10px;
     color: #008080;
-    font-family: "Righteous", cursive;
+    font-family: "Courgette", cursive;
     width: 500px;
   }
   
@@ -108,7 +108,7 @@
     margin-bottom: 5px;
     padding-top: 100px;
     color: #008080;
-    font-family: "pacifico", cursive;
+    font-family: "Courgette", cursive;
     width: 500px;
   }
   
@@ -170,6 +170,8 @@
   .work-header {
     padding: 5px;
     text-align: center;
+    color: #026670;
+    font-family: 'Courgette', cursive;
   }
   
   .project {
@@ -221,7 +223,7 @@
     padding: 0px;
     text-align: center;
     color: #008080;
-    font-family: "Pacifico", cursive;
+    font-family: "Courgette", cursive;
   }
   
   .para {

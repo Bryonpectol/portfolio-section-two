@@ -84,12 +84,24 @@ nav ul li a:hover {
 .aboutp {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   text-align: center;
   margin-left: 35%;
   padding-top: 10px;
   color: #008080;
   font-family: "Righteous", cursive;
+  width: 500px;
+}
+
+.abouth2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-left: 35%;
+  padding-top: 10px;
+  color: #008080;
+  font-family: "Courgette", cursive;
   width: 500px;
 }
 
@@ -108,7 +120,7 @@ nav ul li a:hover {
   margin-bottom: 5px;
   padding-top: 100px;
   color: #008080;
-  font-family: "pacifico", cursive;
+  font-family: "Courgette", cursive;
   width: 500px;
 }
 
@@ -133,6 +145,12 @@ nav ul li a:hover {
 .noline {
   text-decoration: none;
   color: #008080;
+}
+
+.li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .arrow {
@@ -216,7 +234,7 @@ figcaption {
   padding: 0px;
   text-align: center;
   color: #008080;
-  font-family: "Pacifico", cursive;
+  font-family: "Courgette", cursive;
 }
 
 .para {
