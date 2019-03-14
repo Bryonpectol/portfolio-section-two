@@ -111,6 +111,14 @@ nav ul li a:hover {
     margin-left: 45%;
 }
 
+.navimg {
+  display: inline-block;
+  padding: 2px;
+  width: 55px;
+  height: 55px;
+  float: left;
+}
+
 .abouth1 {
   display: flex;
   flex-wrap: wrap;
