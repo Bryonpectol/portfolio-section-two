@@ -119,6 +119,18 @@ nav ul li a:hover {
   float: left;
 }
 
+hr {
+  display: flex;
+  justify-content: center;
+  /* width: 500px; */
+  border: solid 2px #9FEDD7;
+}
+
+.brycelink {
+  /* text-decoration: none; */
+  color: #fcba36;
+}
+
 .abouth1 {
   display: flex;
   flex-wrap: wrap;
