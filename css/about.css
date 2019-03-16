@@ -198,6 +198,7 @@ nav ul li a {
 nav ul li a:hover {
   color: #9fedd7;
   border: 2px solid #9FEDD7;
+  background-color: #140a25;
 }
 
 .work {
