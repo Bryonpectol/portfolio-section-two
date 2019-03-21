@@ -172,8 +172,15 @@
   }
   
   .work {
+    padding-top: 25px;
     background-color: #edeae5;
-    
+  }
+
+  hr {
+    display: flex;
+    justify-content: center;
+    /* width: 500px; */
+    border: solid 2px #9FEDD7;
   }
   
   .work-header {
