@@ -291,11 +291,16 @@ figcaption {
   margin-left: 27.5%;
   width: 700px;
   background-color: #EDEAE5;
+  color: #EDEAE5;
 }
 
 .videodiv {
   background-color: #EDEAE5;
   /* background-clip: border-box; */
+}
+
+.videoyes {
+  background-color: #EDEAE5;
 }
 
 .contact-center {
