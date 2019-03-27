@@ -9,12 +9,12 @@ const allCards = mtgdata.map(myCard => {
 
     return {
       // this is how the script finds the item in the array.
-      nAME: cardsYeah.name,
-      manaCost: myCard.manaCost
+      nAME: myCard.name,
+      manaCost: cardsYeah.manaCost
     };
   });
 
-  const mainContainer = document.createElement("div");
+  const mainContainer = document.createElement("p");
   const footerElement = document.createElement('footer');
 
   mainContainer.className = "container";
@@ -24,19 +24,19 @@ const allCards = mtgdata.map(myCard => {
       // all of the br elements.
 
       // this section is to create the html elements.
-      let makeElement = document.createElement('div');
+      let cardsElement = document.createElement('div');
       let imageElement = document.createElement('p');
       let cardElement = document.createElement('p');
 
 
     // assigning classes.
-    makeElement.className = 'box';
+    cardsElement.className = 'box';
     cardElement.className = 'name';
     footerElement.className = 'footeryes';
 
       // Makes the actual array display on the document.
-      makeElement.textContent = myCard.nAME;
-      imageElement.textContent = myCard.image;
+      cardsElement.textContent = myCard.name;
+      imageElement.textContent = myCard.manaCost;
     //   cardElement = textContent = mycard.
 
 
@@ -45,10 +45,10 @@ const allCards = mtgdata.map(myCard => {
  
 
       // Appended Childeren, the order the elements appear.
-      mainContainer.appendChild(makeElement);
-      makeElement.appendChild(cardElement);
+      mainContainer.appendChild(cardsElement);
+      cardsElement.appendChild(cardElement);
     //   makeElement.appendChild(originElement);
-      makeElement.appendChild(imageElement);
+      cardsElement.appendChild(imageElement);
 
     //   makeElement.appendChild(br11Element);
       // makeElement.appendChild(cylindersElement);
@@ -98,3 +98,4 @@ const allCards = mtgdata.map(myCard => {
   document.body.appendChild(footerElement);
 
   console.log(allCards);
+  console.log(mtgdata)
