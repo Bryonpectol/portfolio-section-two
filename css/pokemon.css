@@ -336,7 +336,17 @@ justify-content: space-around;
   .pokeh1 {
       font-size: 50px;
       color: #008080;
+      text-align: center;
   }
+
+  .pokeh2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.pokebutton {
+  position: absolute;
+}
 
   footer p {
     color: #fff;

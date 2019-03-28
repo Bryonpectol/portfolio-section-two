@@ -1,81 +1,72 @@
-import { pokemon } from '../data/pokemon.js';
-
-console.log(pokemon);
-
+import { pokemon } from '../data/pokemon.js'
 
 class Pokemon {
-  constructor(id) {
-    this.id = id
-  }
+    constructor(id) {
+        this.id = id
+    }
 }
 
 const mainContainer = document.querySelector('.container')
 
-  function createpokecard(pokedata) {
-      let card = document.createElement('div')
-      card.className = 'box'
-      let figure = document.createElement('figure')
-      let caption = document.createElement('figcaption')
-      let title = document.createElement('h2')
-      let image = document.createElement('img')
+function createPokeCard(pokeData) {
+    let card = document.createElement('div')
+    card.className = 'box'
+    let figure = document.createElement('figure')
+    let caption = document.createElement('figcaption')
+    let image = document.createElement('img')
 
-      
-      caption.textContent = pokedata.name
-      if(pokedata.id !== 0) {
-        image.src = ""
-      }
-      title.textContent = UpperName
-      figure.appendChild(image)
-     figure.appendChild(caption)
-      card.appendChild(title)
-      card.appendChild(image)
+    //let upperName = pokeData.name.charAt(0).toUpperCase() + pokeData.name.slice(1)
+    caption.textContent = pokeData.name
+    if(pokeData.id !== 0) {
+        image.src = `../images/${pokeData.imageID}${pokeData.name}.png`
+    } else {
+        image.src = `../images/pokeball.png`
+    }
+    
+    figure.appendChild(image)
+    figure.appendChild(caption)
+    card.appendChild(figure)
     mainContainer.appendChild(card)
-  }
+}
 
-  // pokemon.forEach((singleMon) => {
-  //   fetch(singleMon.url)
-  //   .then(function(response) {
-  //     return response.json();
-  //   })
-  //   .then(function(myJson) {
-  //     createpokecard(myJson)
-  //   });
-  
-  // })
+// pokemon.forEach(singleMon => {
+//     fetch(singleMon.url)
+//     .then(function(response) {
+//       return response.json()
+//     })
+//     .then(function(myJson) {
+//       createPokeCard(myJson)
+//     })
+// })
 
-  function fetchSinglePokemon(id) {
+function fetchSinglePokemon(id) {
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
     .then(function(response) {
-      return response.json();
+        return response.json()
     })
-    .then(function(retrievePokemon) {
-      console.log(retrievePokemon.id)
-      if(retrievePokemon.id < 10) {
-          retrievePokemon.imageID = "00" + retrievePokemon.id
+    .then(function(retrievedPokemon) {
+        console.log(typeof(retrievedPokemon.id))
+        if(retrievedPokemon.id < 10) {
+            retrievedPokemon.imageID = "00" + retrievedPokemon.id
         }
-        if(retrievePokemon.id > 9 && retrievePokemon.id < 100) {
-          retrievePokemon.imageID = "00" + retrievePokemon.id
+        if(retrievedPokemon.id > 9 && retrievedPokemon.id < 100 ) {
+            retrievedPokemon.imageID = "0" + retrievedPokemon.id
         }
-
-        if(retrievePokemon.id > 99) {
-          retrievePokemon.imageID = retrievePokemon.id
+        if(retrievedPokemon.id > 99) {
+            retrievedPokemon.imageID = retrievedPokemon.id
         }
+        retrievedPokemon.name = retrievedPokemon.name.charAt(0).toUpperCase() + retrievedPokemon.name.slice(1)
+        createPokeCard(retrievedPokemon)
+    })
+}
 
-      retrievePokemon.name = retrievePokemon.name.charAt(0).toUpperCase() + retrievePokemon.name.slice(1)
-
-      createpokecard(retrievePokemon)
-    });
-  }
-  
 
 const newPokemonButton = document.querySelector('button')
 
 newPokemonButton.addEventListener('click', function() {
-  let pokemonID = prompt('Enter an ID')
-  fetchSinglePokemon(pokemonID)
-  // const retrievePokemon = fetchSinglePokemon((pokemonID))
-  // console.log(retrievePokemon)
-  //
+    let pokemonID = prompt('Enter an ID of an existing pokemon:')
+    fetchSinglePokemon(pokemonID)
+  });
 
-  // createpokecard(retrievePokemon)
-});
+
+
