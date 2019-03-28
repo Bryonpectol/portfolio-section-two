@@ -60,3 +60,5 @@ allHomeWorlds.forEach(person => {
 
 document.body.appendChild(mainContainer);
 
+console.log(allHomeWorlds)
+

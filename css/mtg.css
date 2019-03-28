@@ -327,7 +327,15 @@
       footer {
         background-color: #026670;
       }
+
+      .footeryes {
+          color: white;
+      }
       
+      .mtgh1 {
+          padding-top: 70px;
+      }
+
       .footer-link {
         text-decoration: none;
         color: #9FEDD7;
