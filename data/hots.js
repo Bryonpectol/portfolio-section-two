@@ -1397,6 +1397,7 @@ export const heros = [
         "name": "Artanis",
         "short_name": "artanis",
         "attribute_id": "Arts",
+        "image": "/data/images/artanis.jpg",
         "translations": [
             "아르타니스",
             "亞坦尼斯",
@@ -1849,6 +1850,7 @@ export const heros = [
         "name": "Arthas",
         "short_name": "arthas",
         "attribute_id": "Arth",
+        "image": "/data/images/arthas.png",
         "translations": [
             "артас",
             "아서스",
