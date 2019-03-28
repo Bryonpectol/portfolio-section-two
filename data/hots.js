@@ -4320,6 +4320,7 @@ export const heros = [
         "name": "Chen",
         "short_name": "chen",
         "attribute_id": "Chen",
+        "image": "/data/images/chen.png",
         "translations": [
             "чэнь",
             "czen",
