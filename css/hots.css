@@ -332,6 +332,10 @@
         text-decoration: none;
         color: #9FEDD7;
       }
+
+      .imagecard {
+        width: 80px;
+      }
       
       .pokeh1 {
           font-size: 50px;

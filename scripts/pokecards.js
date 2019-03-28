@@ -2,6 +2,13 @@ import { pokemon } from '../data/pokemon.js';
 
 console.log(pokemon);
 
+
+class Pokemon {
+  constructor(id) {
+    this.id = id
+  }
+}
+
 const mainContainer = document.querySelector('.container')
 
   function createpokecard(pokedata) {

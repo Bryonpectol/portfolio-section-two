@@ -2233,6 +2233,7 @@ export const heros = [
         "name": "Auriel",
         "short_name": "auriel",
         "attribute_id": "Auri",
+        "image": "/data/images/auriel.png",
         "translations": [
             "ауриэль",
             "奥莉尔",
@@ -2643,6 +2644,7 @@ export const heros = [
         "name": "Azmodan",
         "short_name": "azmodan",
         "attribute_id": "Azmo",
+        "image": "/data/images/azmodan.png",
         "translations": [
             "asmodan",
             "азмодан",
@@ -3322,6 +3324,7 @@ export const heros = [
         "name": "Brightwing",
         "short_name": "brightwing",
         "attribute_id": "Faer",
+        "image": "/data/images/brightw.png",
         "translations": [
             "luisaile",
             "funkelchen",
@@ -3946,6 +3949,7 @@ export const heros = [
         "name": "Cassia",
         "short_name": "cassia",
         "attribute_id": "Amaz",
+        "image": "/data/images/cassia.png",
         "translations": [
             "cássia",
             "kasja",

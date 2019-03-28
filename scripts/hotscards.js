@@ -29,10 +29,12 @@ const allCars = heros.map(myCar => {
 
   // assigning classes.
   makeElement.className = 'box';
+  imageElement.className = 'imagecard';
 
     makeElement.textContent = myCar.mAKE;
     roleElement.textContent = myCar.role;
     imageElement.src = myCar.image;
+
 
     
     mainContainer.appendChild(makeElement);
