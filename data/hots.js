@@ -4756,6 +4756,7 @@ export const heros = [
         "name": "Cho",
         "short_name": "cho",
         "attribute_id": "CCho",
+        "image": "/data/images/gall.png",
         "translations": [
             "чо",
             "초",
@@ -5141,6 +5142,7 @@ export const heros = [
         "name": "Chromie",
         "short_name": "chromie",
         "attribute_id": "Chro",
+        "image": "/data/images/chromie.png",
         "translations": [
             "crona",
             "cromi",
@@ -5667,6 +5669,7 @@ export const heros = [
         "name": "D.Va",
         "short_name": "dva",
         "attribute_id": "DVA0",
+        "image": "/data/images/dva.png",
         "translations": [
             "d.va"
         ],
@@ -6134,6 +6137,7 @@ export const heros = [
         "name": "Dehaka",
         "short_name": "dehaka",
         "attribute_id": "Deha",
+        "image": "/data/images/Dehaka.png",
         "translations": [
             "дехака",
             "데하카",
@@ -6526,6 +6530,7 @@ export const heros = [
         "name": "Diablo",
         "short_name": "diablo",
         "attribute_id": "Diab",
+        "image": "/data/images/diablo.png",
         "translations": [
             "диабло",
             "디아블로",
@@ -7006,6 +7011,7 @@ export const heros = [
         "name": "E.T.C.",
         "short_name": "etc",
         "attribute_id": "L90E",
+        "image": "/data/images/etc.png",
         "translations": [
             "etc",
             "c.t.e.",
@@ -7403,6 +7409,7 @@ export const heros = [
         "name": "Falstad",
         "short_name": "falstad",
         "attribute_id": "Fals",
+        "image": "/data/images/falstad.png",
         "translations": [
             "фалстад",
             "폴스타트",
@@ -7795,6 +7802,7 @@ export const heros = [
         "name": "Gall",
         "short_name": "gall",
         "attribute_id": "Gall",
+        "image": "/data/images/gall.png",
         "translations": [
             "галл",
             "갈",
@@ -8200,6 +8208,7 @@ export const heros = [
         "name": "Garrosh",
         "short_name": "garrosh",
         "attribute_id": "Garr",
+        "image": "/data/images/garrosh.png",
         "translations": [
             "加尔鲁什",
             "가로쉬",
@@ -8597,6 +8606,7 @@ export const heros = [
         "name": "Gazlowe",
         "short_name": "gazlowe",
         "attribute_id": "Tink",
+        "image": "/data/images/gazlowe.png",
         "translations": [
             "gazleu",
             "gazol",
@@ -9022,6 +9032,7 @@ export const heros = [
         "name": "Genji",
         "short_name": "genji",
         "attribute_id": "Genj",
+        "image": "/data/images/genji.png",
         "translations": [
             "гэндзи",
             "源氏",
@@ -9417,6 +9428,7 @@ export const heros = [
         "name": "Greymane",
         "short_name": "greymane",
         "attribute_id": "Genn",
+        "image": "/data/images/greymane.png",
         "translations": [
             "cringris",
             "cringrís",
@@ -9877,6 +9889,7 @@ export const heros = [
         "name": "Gul'dan",
         "short_name": "guldan",
         "attribute_id": "Guld",
+        "image": "/data/images/guldan.png",
         "translations": [
             "古爾丹",
             "古尔丹",
@@ -10288,6 +10301,7 @@ export const heros = [
         "name": "Illidan",
         "short_name": "illidan",
         "attribute_id": "Illi",
+        "image": "/data/images/illidan.png",
         "translations": [
             "иллидан",
             "일리단",
@@ -10669,6 +10683,7 @@ export const heros = [
         "name": "Jaina",
         "short_name": "jaina",
         "attribute_id": "Jain",
+        "image": "/data/images/jaina.png",
         "translations": [
             "джайна",
             "제이나",
@@ -11062,6 +11077,7 @@ export const heros = [
         "name": "Johanna",
         "short_name": "johanna",
         "attribute_id": "Crus",
+        "image": "/data/images/johanna.png",
         "translations": [
             "요한나",
             "джоанна",
@@ -11444,6 +11460,7 @@ export const heros = [
         "name": "Kael'thas",
         "short_name": "kaelthas",
         "attribute_id": "Kael",
+        "image": "/data/images/kaelthas.png",
         "translations": [
             "kael’thas",
             "캘타스",
@@ -11855,6 +11872,7 @@ export const heros = [
         "name": "Kerrigan",
         "short_name": "kerrigan",
         "attribute_id": "Kerr",
+        "image": "/data/images/kerrigan.png",
         "translations": [
             "керриган",
             "케리건",
@@ -12587,6 +12605,7 @@ export const heros = [
         "name": "Kharazim",
         "short_name": "kharazim",
         "attribute_id": "Monk",
+        "image": "/data/images/kharazim.png",
         "translations": [
             "克拉辛",
             "卡拉辛姆",

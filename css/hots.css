@@ -5,8 +5,9 @@
     }
     
     .box {
-        width: 145px;
-        height: 220px;
+        text-align: center;
+        width: 250px;
+        height: 500px;
         margin: 8px;
         text-align: center;
     }
@@ -334,7 +335,7 @@
       }
 
       .imagecard {
-        width: 80px;
+        height: 150px;;
       }
       
       .pokeh1 {

@@ -25,6 +25,7 @@ const allCars = heros.map(myCar => {
     let makeElement = document.createElement('div');
     let roleElement = document.createElement('p');
     let imageElement = document.createElement('img');
+    let br1 = document.createElement('br');
 
 
   // assigning classes.
@@ -39,6 +40,7 @@ const allCars = heros.map(myCar => {
     
     mainContainer.appendChild(makeElement);
     makeElement.appendChild(roleElement);
+    makeElement.appendChild(br1)
     makeElement.appendChild(imageElement)
     
 
