@@ -25388,6 +25388,7 @@ export const heros = [
         "name": "The Butcher",
         "short_name": "thebutcher",
         "attribute_id": "Butc",
+        "image": "/data/images/butcher.png",
         "translations": [
             "el carnicero",
             "o açougueiro",
@@ -25774,6 +25775,7 @@ export const heros = [
     {
         "name": "The Lost Vikings",
         "short_name": "thelostvikings",
+        "image": "/data/images/lostvikings.png",
         "attribute_id": "Lost",
         "translations": [
             "os vikings perdidos",
@@ -26293,6 +26295,7 @@ export const heros = [
         "name": "Thrall",
         "short_name": "thrall",
         "attribute_id": "Thra",
+        "image": "/data/images/thrall.png",
         "translations": [
             "тралл",
             "萨尔",
@@ -26675,6 +26678,7 @@ export const heros = [
         "name": "Tracer",
         "short_name": "tracer",
         "attribute_id": "Tra0",
+        "image": "/data/images/tracer.png",
         "translations": [
             "трейсер",
             "smuga",
@@ -27047,6 +27051,7 @@ export const heros = [
         "name": "Tychus",
         "short_name": "tychus",
         "attribute_id": "Tych",
+        "image": "/data/images/tychus.png",
         "translations": [
             "тайкус",
             "타이커스",
@@ -27476,6 +27481,7 @@ export const heros = [
         "name": "Tyrael",
         "short_name": "tyrael",
         "attribute_id": "Tyrl",
+        "image": "/data/images/tyrael.png",
         "translations": [
             "тираэль",
             "tyraël",
@@ -28083,6 +28089,7 @@ export const heros = [
         "name": "Tyrande",
         "short_name": "tyrande",
         "attribute_id": "Tyrd",
+        "image": "/data/images/tyrande.png",
         "translations": [
             "тиранда",
             "티란데",
@@ -28479,6 +28486,7 @@ export const heros = [
         "name": "Uther",
         "short_name": "uther",
         "attribute_id": "Uthe",
+        "image": "/data/images/uther.png",
         "translations": [
             "утер",
             "우서",
@@ -28883,6 +28891,7 @@ export const heros = [
         "name": "Valeera",
         "short_name": "valeera",
         "attribute_id": "VALE",
+        "image": "/data/images/valeera.png",
         "translations": [
             "valira",
             "валира",
@@ -29355,6 +29364,7 @@ export const heros = [
         "name": "Valla",
         "short_name": "valla",
         "attribute_id": "Demo",
+        "image": "/data/images/valla.png",
         "translations": [
             "vala",
             "demon hunter",
@@ -29749,6 +29759,7 @@ export const heros = [
         "name": "Varian",
         "short_name": "varian",
         "attribute_id": "Vari",
+        "image": "/data/images/varian.png",
         "translations": [
             "瓦里安",
             "바리안",
@@ -30170,6 +30181,7 @@ export const heros = [
         "name": "Xul",
         "short_name": "xul",
         "attribute_id": "Necr",
+        "image": "/data/images/xul.png",
         "translations": [
             "蘇爾",
             "祖尔",
@@ -30563,6 +30575,7 @@ export const heros = [
         "name": "Zagara",
         "short_name": "zagara",
         "attribute_id": "Zaga",
+        "image": "/data/images/zagara.png",
         "translations": [
             "загара",
             "자가라",
@@ -30931,6 +30944,7 @@ export const heros = [
         "name": "Zarya",
         "short_name": "zarya",
         "attribute_id": "Zary",
+        "image": "/data/images/zarya.png",
         "translations": [
             "札莉雅",
             "查莉娅",
@@ -31385,6 +31399,7 @@ export const heros = [
         "name": "Zeratul",
         "short_name": "zeratul",
         "attribute_id": "Zera",
+        "image": "/data/images/zeratul.png",
         "translations": [
             "зератул",
             "제라툴",
