@@ -1397,7 +1397,7 @@ export const heros = [
         "name": "Artanis",
         "short_name": "artanis",
         "attribute_id": "Arts",
-        "image": "/data/images/artanis.jpg",
+        "image": "/data/images/artanis.png",
         "translations": [
             "아르타니스",
             "亞坦尼斯",
@@ -14847,6 +14847,7 @@ export const heros = [
         "name": "Lúcio",
         "short_name": "lucio",
         "attribute_id": "Luci",
+        "image": "/data/images/lucio.png",
         "translations": [
             "lucio",
             "лусио",
@@ -15420,6 +15421,7 @@ export const heros = [
         "name": "Lunara",
         "short_name": "lunara",
         "attribute_id": "Drya",
+        "image": "/data/images/lunara.png",
         "translations": [
             "露娜拉",
             "루나라",
@@ -15964,6 +15966,7 @@ export const heros = [
         "name": "Malfurion",
         "short_name": "malfurion",
         "attribute_id": "Malf",
+        "image": "/data/images/malfurion.png",
         "translations": [
             "малфурион",
             "말퓨리온",
@@ -16472,6 +16475,7 @@ export const heros = [
         "name": "Malthael",
         "short_name": "malthael",
         "attribute_id": "MALT",
+        "image": "/data/images/malthael.png",
         "translations": [
             "maltael",
             "malthaël",
@@ -16870,6 +16874,7 @@ export const heros = [
         "name": "Medivh",
         "short_name": "medivh",
         "attribute_id": "Mdvh",
+        "image": "/data/images/medivh.png",
         "translations": [
             "麥迪文",
             "麦迪文",
@@ -17347,6 +17352,7 @@ export const heros = [
         "name": "Muradin",
         "short_name": "muradin",
         "attribute_id": "Mura",
+        "image": "/data/images/muradin.png",
         "translations": [
             "мурадин",
             "무라딘",
@@ -17812,6 +17818,7 @@ export const heros = [
         "name": "Murky",
         "short_name": "murky",
         "attribute_id": "Murk",
+        "image": "/data/images/murky.png",
         "translations": [
             "bourbie",
             "męcik",
@@ -18199,6 +18206,7 @@ export const heros = [
         "name": "Nazeebo",
         "short_name": "nazeebo",
         "attribute_id": "Witc",
+        "image": "/data/images/nazeebo.png",
         "translations": [
             "witch doctor",
             "féticheur",
@@ -18601,6 +18609,7 @@ export const heros = [
         "name": "Nova",
         "short_name": "nova",
         "attribute_id": "Nova",
+        "image": "/data/images/nova.png",
         "translations": [
             "нова",
             "노바",
@@ -19033,6 +19042,7 @@ export const heros = [
         "name": "Probius",
         "short_name": "probius",
         "attribute_id": "Prob",
+        "image": "/data/images/probius.png",
         "translations": [
             "sondius",
             "пробиус",
@@ -19443,6 +19453,7 @@ export const heros = [
         "name": "Ragnaros",
         "short_name": "ragnaros",
         "attribute_id": "Ragn",
+        "image": "/data/images/ragnaros.png",
         "translations": [
             "拉格納羅斯",
             "拉格纳罗斯",
@@ -19891,6 +19902,7 @@ export const heros = [
         "name": "Raynor",
         "short_name": "raynor",
         "attribute_id": "Rayn",
+        "image": "/data/images/raynor.png",
         "translations": [
             "рейнор",
             "레이너",
@@ -20553,6 +20565,7 @@ export const heros = [
         "name": "Rehgar",
         "short_name": "rehgar",
         "attribute_id": "Rehg",
+        "image": "/data/images/rehgar.png",
         "translations": [
             "регар",
             "레가르",
@@ -21198,6 +21211,7 @@ export const heros = [
         "name": "Rexxar",
         "short_name": "rexxar",
         "attribute_id": "Rexx",
+        "image": "/data/images/rexxar.png",
         "translations": [
             "рексар",
             "雷克萨",
@@ -21594,6 +21608,7 @@ export const heros = [
         "name": "Samuro",
         "short_name": "samuro",
         "attribute_id": "Samu",
+        "image": "/data/images/samuro.png",
         "translations": [
             "萨穆罗",
             "薩姆羅",
@@ -21991,6 +22006,7 @@ export const heros = [
         "name": "Sgt. Hammer",
         "short_name": "sgthammer",
         "attribute_id": "Sgth",
+        "image": "/data/images/sghammer.png",
         "translations": [
             "sgt marteau",
             "sergeant hammer",
@@ -22589,6 +22605,7 @@ export const heros = [
         "name": "Sonya",
         "short_name": "sonya",
         "attribute_id": "Barb",
+        "image": "/data/images/sonya.png",
         "translations": [
             "sonia",
             "barbare",
@@ -23301,6 +23318,7 @@ export const heros = [
         "name": "Stitches",
         "short_name": "stitches",
         "attribute_id": "Stit",
+        "image": "/data/images/stitches.png",
         "translations": [
             "kleiner",
             "puntos",
@@ -24064,6 +24082,7 @@ export const heros = [
         "name": "Stukov",
         "short_name": "stukov",
         "attribute_id": "STUK",
+        "image": "/data/images/stukov.png",
         "translations": [
             "斯杜科夫",
             "스투코프",
@@ -24503,6 +24522,7 @@ export const heros = [
         "name": "Sylvanas",
         "short_name": "sylvanas",
         "attribute_id": "Sylv",
+        "image": "/data/images/sylvanas.png",
         "translations": [
             "sylvana",
             "希尔瓦娜斯",
@@ -24985,6 +25005,7 @@ export const heros = [
         "name": "Tassadar",
         "short_name": "tassadar",
         "attribute_id": "Tass",
+        "image": "/data/images/tassadar.png",
         "translations": [
             "тассадар",
             "태사다르",
