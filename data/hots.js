@@ -13038,6 +13038,7 @@ export const heros = [
         "name": "Leoric",
         "short_name": "leoric",
         "attribute_id": "Leor",
+        "image": "/data/images/leoric.png",
         "translations": [
             "leoryk",
             "леорик",
@@ -13469,6 +13470,7 @@ export const heros = [
         "name": "Li Li",
         "short_name": "lili",
         "attribute_id": "LiLi",
+        "image": "/data/images/lili.png",
         "translations": [
             "ли ли",
             "리 리",
@@ -14047,6 +14049,7 @@ export const heros = [
         "name": "Li-Ming",
         "short_name": "liming",
         "attribute_id": "Wiza",
+        "image": "/data/images/liming.png",
         "translations": [
             "李敏",
             "리밍",
@@ -14456,6 +14459,7 @@ export const heros = [
         "name": "Lt. Morales",
         "short_name": "ltmorales",
         "attribute_id": "Medi",
+        "image": "/data/images/morales.png",
         "translations": [
             "lt morales",
             "ten. morales",
