@@ -31891,6 +31891,7 @@ export const heros = [
         "name": "Zul'jin",
         "short_name": "zuljin",
         "attribute_id": "ZULJ",
+        "image": "/data/images/zuljin.png",
         "translations": [
             "zul’jin",
             "祖爾金",
