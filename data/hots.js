@@ -32314,6 +32314,7 @@ export const heros = [
         "name": "Kel'Thuzad",
         "short_name": "kelthuzad",
         "attribute_id": "KelT",
+        "image": "/data/images/kelthuzad.png",
         "translations": [
             "kel’thuzad",
             "克尔苏加德",
