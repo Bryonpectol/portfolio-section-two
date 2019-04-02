@@ -10,20 +10,10 @@ const mainContainer = document.querySelector('.container')
 
 function cardFront(pokeData) {
     let cardFront = document.createElement('div')
-    let card = document.createElement('div')
-    card.className = 'box'
+    cardFront.className = 'card__face'
     let figure = document.createElement('figure')
     let caption = document.createElement('figcaption')
     let image = document.createElement('img')
-}
-
-function cardBack(pokeData) {
-    let cardBack = document.createElement('div');
-    return cardBack
-}
-
-function createPokeCard(pokeData) {
-    
 
     caption.textContent = pokeData.name
     if(pokeData.id !== 0) {
@@ -36,19 +26,43 @@ function createPokeCard(pokeData) {
     figure.appendChild(caption)
     cardFront.appendChild(figure)
     return cardFront
-    mainContainer.appendChild(card)
 }
 
+function cardBack(pokeData) {
+    let cardBack = document.createElement('div')
+    let backImage = document.createElement('img')
+    backImage.src = `../images/pokeball.png`
+    cardBack.className = 'card__face card__face--back'
+    cardBack.appendChild(backImage)
+    return cardBack
+}
 
-// pokemon.forEach(singleMon => {
-//     fetch(singleMon.url)
-//     .then(function(response) {
-//       return response.json()
-//     })
-//     .then(function(myJson) {
-//       createPokeCard(myJson)
-//     })
-// })
+function createPokeCard(pokeData) {
+    let scene = document.createElement('div')
+    scene.className = 'scene'
+    let card = document.createElement('div')
+    card.className = 'card'
+
+    card.appendChild(cardFront(pokeData))
+    card.appendChild(cardBack(pokeData))
+
+    card.addEventListener( 'click', function() {
+        card.classList.toggle('is-flipped');
+      })
+
+    scene.appendChild(card)
+    mainContainer.appendChild(scene)
+}
+
+pokemon.forEach(singleMon => {
+    fetch(singleMon.url)
+    .then(function(response) {
+      return response.json()
+    })
+    .then(function(myJson) {
+      createPokeCard(matchIdToImage(myJson))
+    })
+})
 
 function matchIdToImage(aPokemon) {
     if(aPokemon.id < 10) {
@@ -70,9 +84,7 @@ function fetchSinglePokemon(id) {
         return response.json()
     })
     .then(function(retrievedPokemon) {
-        console.log(typeof(retrievedPokemon.id))
-        
-        createPokeCard(retrievedPokemon)
+        createPokeCard(matchIdToImage(retrievedPokemon))
     })
 }
 
@@ -83,6 +95,3 @@ newPokemonButton.addEventListener('click', function() {
     let pokemonID = prompt('Enter an ID of an existing pokemon:')
     fetchSinglePokemon(pokemonID)
   });
-
-
-
