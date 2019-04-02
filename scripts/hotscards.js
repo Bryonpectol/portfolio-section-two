@@ -13,7 +13,8 @@ const allCars = heros.map(myCar => {
     //   nAME: myCar.name,
       mAKE: carsYeah.name,
       role: carsYeah.role,
-      image: carsYeah.image
+      image: carsYeah.image,
+      type: carsYeah.type
    
     };
   });
@@ -26,6 +27,8 @@ const allCars = heros.map(myCar => {
     let roleElement = document.createElement('p');
     let imageElement = document.createElement('img');
     let br1 = document.createElement('br');
+    let typeElement = document.createElement('p');
+    let br2 = document.createElement('hr');
 
 
   // assigning classes.
@@ -35,13 +38,16 @@ const allCars = heros.map(myCar => {
     makeElement.textContent = myCar.mAKE;
     roleElement.textContent = myCar.role;
     imageElement.src = myCar.image;
+    typeElement.textContent = myCar.type;
 
 
     
     mainContainer.appendChild(makeElement);
+    makeElement.appendChild(br2);
+    makeElement.appendChild(typeElement);
     makeElement.appendChild(roleElement);
-    makeElement.appendChild(br1)
-    makeElement.appendChild(imageElement)
+    makeElement.appendChild(br1);
+    makeElement.appendChild(imageElement);
     
 
    

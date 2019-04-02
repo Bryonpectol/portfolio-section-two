@@ -33231,6 +33231,7 @@ export const heros = [
         "name": "Junkrat",
         "short_name": "junkrat",
         "attribute_id": "Junk",
+        "image": "/data/images/junkrat.png",
         "translations": [
             "junkrat",
             "炸彈鼠",
@@ -33657,6 +33658,7 @@ export const heros = [
         "name": "Alexstrasza",
         "short_name": "alexstrasza",
         "attribute_id": "Alex",
+        "image": "/data/images/alexstrasza.png",
         "translations": [
             "alexstrasza",
             "alexstraza",
@@ -34117,6 +34119,7 @@ export const heros = [
         "name": "Hanzo",
         "short_name": "hanzo",
         "attribute_id": "Hanz",
+        "image": "/data/images/hanzo.png",
         "translations": [
             "hanzo",
             "半藏",
@@ -34498,6 +34501,7 @@ export const heros = [
         "name": "Blaze",
         "short_name": "blaze",
         "attribute_id": "Fire",
+        "image": "/data/images/blaze.png",
         "translations": [
             "firebat",
             "blaze",
@@ -34898,6 +34902,7 @@ export const heros = [
         "name": "Maiev",
         "short_name": "maiev",
         "attribute_id": "Maie",
+        "image": "/data/images/maiev.png",
         "translations": [
             "maiev",
             "玛维",
@@ -35266,6 +35271,7 @@ export const heros = [
         "name": "Fenix",
         "short_name": "fenix",
         "attribute_id": "FENX",
+        "image": "/data/images/fenix.png",
         "translations": [
             "fenix",
             "피닉스",
@@ -35673,6 +35679,7 @@ export const heros = [
         "name": "Deckard",
         "short_name": "deckard",
         "attribute_id": "DECK",
+        "image": "/data/images/deckard.png",
         "translations": [
             "凱恩",
             "迪卡德",
@@ -36055,6 +36062,7 @@ export const heros = [
         "name": "Yrel",
         "short_name": "yrel",
         "attribute_id": "YREL",
+        "image": "/data/images/yrel.png",
         "translations": [
             "yrel",
             "ирель",
@@ -36451,6 +36459,7 @@ export const heros = [
         "name": "Whitemane",
         "short_name": "whitemane",
         "attribute_id": "WHIT",
+        "image": "/data/images/noimage.png",
         "translations": [
             "whitemane",
             "cristalba",
@@ -36853,6 +36862,7 @@ export const heros = [
         "name": "Mephisto",
         "short_name": "mephisto",
         "attribute_id": "MEPH",
+        "image": "/data/images/mephisto.png",
         "translations": [
             "mephisto",
             "мефисто",
@@ -37250,6 +37260,7 @@ export const heros = [
         "name": "Mal'Ganis",
         "short_name": "malganis",
         "attribute_id": "MalG",
+        "image": "/data/images/malganis.png",
         "translations": [
             "mal'ganis",
             "mal’ganis",
@@ -37647,6 +37658,7 @@ export const heros = [
         "name": "Orphea",
         "short_name": "orphea",
         "attribute_id": "ORPH",
+        "image": "/data/images/orphea.png",
         "translations": [
             "orphea",
             "orféa",
@@ -38032,6 +38044,7 @@ export const heros = [
         "name": "Imperius",
         "short_name": "imperius",
         "attribute_id": "IMPE",
+        "image": "/data/images/imperius.png",
         "translations": [
             "imperius",
             "impérius",
