@@ -39,7 +39,6 @@ function createPokeCard(pokeData) {
 }
 
 
-
 // pokemon.forEach(singleMon => {
 //     fetch(singleMon.url)
 //     .then(function(response) {
