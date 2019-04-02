@@ -8,14 +8,22 @@ class Pokemon {
 
 const mainContainer = document.querySelector('.container')
 
-function createPokeCard(pokeData) {
+function cardFront(pokeData) {
+    let cardFront = document.createElement('div')
     let card = document.createElement('div')
     card.className = 'box'
     let figure = document.createElement('figure')
     let caption = document.createElement('figcaption')
     let image = document.createElement('img')
+}
 
-    //let upperName = pokeData.name.charAt(0).toUpperCase() + pokeData.name.slice(1)
+function cardBack(pokeData) {
+    
+}
+
+function createPokeCard(pokeData) {
+    
+
     caption.textContent = pokeData.name
     if(pokeData.id !== 0) {
         image.src = `../images/${pokeData.imageID}${pokeData.name}.png`
@@ -25,9 +33,12 @@ function createPokeCard(pokeData) {
     
     figure.appendChild(image)
     figure.appendChild(caption)
-    card.appendChild(figure)
+    cardFront.appendChild(figure)
+    return cardFront
     mainContainer.appendChild(card)
 }
+
+
 
 // pokemon.forEach(singleMon => {
 //     fetch(singleMon.url)
@@ -39,6 +50,20 @@ function createPokeCard(pokeData) {
 //     })
 // })
 
+function matchIdToImage(aPokemon) {
+    if(aPokemon.id < 10) {
+        aPokemon.imageID = "00" + aPokemon.id
+    }
+    if(aPokemon.id > 9 && aPokemon.id < 100 ) {
+        aPokemon.imageID = "0" + aPokemon.id
+    }
+    if(aPokemon.id > 99) {
+        aPokemon.imageID = aPokemon.id
+    }
+    aPokemon.name = aPokemon.name.charAt(0).toUpperCase() + aPokemon.name.slice(1)
+    return aPokemon
+}
+
 function fetchSinglePokemon(id) {
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
     .then(function(response) {
@@ -46,16 +71,7 @@ function fetchSinglePokemon(id) {
     })
     .then(function(retrievedPokemon) {
         console.log(typeof(retrievedPokemon.id))
-        if(retrievedPokemon.id < 10) {
-            retrievedPokemon.imageID = "00" + retrievedPokemon.id
-        }
-        if(retrievedPokemon.id > 9 && retrievedPokemon.id < 100 ) {
-            retrievedPokemon.imageID = "0" + retrievedPokemon.id
-        }
-        if(retrievedPokemon.id > 99) {
-            retrievedPokemon.imageID = retrievedPokemon.id
-        }
-        retrievedPokemon.name = retrievedPokemon.name.charAt(0).toUpperCase() + retrievedPokemon.name.slice(1)
+        
         createPokeCard(retrievedPokemon)
     })
 }

@@ -11,6 +11,12 @@ justify-content: space-around;
     text-align: center;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -342,6 +348,11 @@ justify-content: space-around;
   .pokeh2 {
     font-size: 30px;
     text-align: center;
+}
+
+.pokep {
+  /* font-size: px; */
+  text-align: center;
 }
 
 .pokebutton {
