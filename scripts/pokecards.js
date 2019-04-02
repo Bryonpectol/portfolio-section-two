@@ -18,7 +18,8 @@ function cardFront(pokeData) {
 }
 
 function cardBack(pokeData) {
-
+    let cardBack = document.createElement('div');
+    return cardBack
 }
 
 function createPokeCard(pokeData) {
