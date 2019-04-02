@@ -18,7 +18,7 @@ function cardFront(pokeData) {
 }
 
 function cardBack(pokeData) {
-    
+
 }
 
 function createPokeCard(pokeData) {
