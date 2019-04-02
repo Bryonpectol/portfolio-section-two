@@ -19,6 +19,14 @@
     font-size: 50px;
 }
 
+.navimg {
+    display: inline-block;
+    padding: 2px;
+    width: 55px;
+    height: 55px;
+    float: left;
+  }
+
 .h1div {
     display: flex;
     justify-content: center;
