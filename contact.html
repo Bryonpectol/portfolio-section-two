@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/contact.css">
+    <!-- <script src="main.js"></script> -->
+</head>
+<body>
+    
+    <nav>
+        <ul id="navbar">
+            <a href = "index.html"><img class = "navimg" src = "assets/mylogo.png" /></a>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <br />
+      <br />
+      <br />
+      <br />
+
+    <div class="body">
+        <h2>Contact Me</h2>
+
+        <br />
+
+        <form action="https://bryonsportfolio.netlify.com/form.html" method="POST" id ="usrform">
+
+            <fieldset>
+            <p class = "contact-yes">Name: </p>
+
+            <label>
+            <input class = "contact-yes" id = "GET-name" type = "text" name = "name" required>
+            </label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+            <p class = "contact-yes">Email: </p>
+            <label>
+               <input class = "contact-yes" type = "email" name = "email" required>
+            </label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+            <p class = "contact-yes">Phone: eg: 555 555-5555</p>
+            <label>
+               <input class = "contact-yes" name = "tel" pattern="[0-9]{3} [0-9]{3}-[0-9]{4}" title ="example: 123 456-7890">
+            </label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+            <p>Comments: </p>
+            <label>
+              <input class = "contact-yes" type = "text" name = "comment" required>
+            </label>
+            </fieldset>
+
+            <br />
+
+            <fieldset>
+            <label>
+                <input class = "contact-submit" type = "submit" name = "submit">
+            </label>
+            </fieldset>
+
+            <br />
+
+            <input type="hidden" id="custId" name="custId" value="index.html">
+        </form>
+
+        <!-- <textarea name="comment" form="usrform">Enter text here...</textarea> -->
+
+
+        <!-- <p class = "contact-yes"><strong>Email: </strong><a class = "email" href = "mailto:bryon.pectol@gmail.com">bryon.pectol@gmail.com</a></p>
+        <p class = "contact-yes"><strong>Phone: </strong><a class = "email" href = "tel:(801)347-0862">(801) 347-0862</a></p> -->
+
+      </div>
+
+      <footer id="contact">
+        <div class="contact-center">
+          <a
+            href="https://www.facebook.com/BryonPectol"
+            target="_blank"
+            class="contact-details"
+            >Facebook</a
+          >
+          <a
+            id="profile-link"
+            href="https://github.com/Bryonpectol"
+            target="_blank"
+            class="contact-details"
+            >GitHub</a
+          >
+          <a
+          href="https://www.linkedin.com/in/bryon-pectol-134ab0120/"
+          target="_blank"
+          class="contact-details"
+          >LinkedIn</a
+        >
+          
+          <a href="mailto:bryon.pectol@gmail.com" class="contact-details"
+            >Email</a
+          >
+          <a href="tel:801-347-0862" class="contact-details">Call me</a>
+  
+          <a href="#top" class="contact-details">To Top  &#8593;</a>
+        </div>
+  
+        <p>Bryon Pectol, <a class = "footer-link" href = "https://bryonsportfolio.netlify.com/">https://bryonsportfolio.netlify.com/</a> &copy; 2019 All rights reserved.</p>
+      </footer>
+
+</body>
+</html>
