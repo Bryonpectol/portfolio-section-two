@@ -32723,6 +32723,7 @@ export const heros = [
         "name": "Ana",
         "short_name": "ana",
         "attribute_id": "HANA",
+        "image": "/data/images/ana.png",
         "translations": [
             "安娜",
             "아나",
