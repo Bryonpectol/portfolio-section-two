@@ -50,9 +50,6 @@ const allCars = heros.map(myCar => {
     makeElement.appendChild(imageElement);
     
 
-   
-});
-
 document.body.appendChild(mainContainer);
 
 console.log(heros)
