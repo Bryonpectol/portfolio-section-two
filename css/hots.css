@@ -10,6 +10,18 @@
         height: 525px;
         margin: 8px;
         text-align: center;
+        border: solid 1px black;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .role {
+      font-weight: normal;
+    }
+
+    .roles {
+      font-weight: normal;
+      margin-top: 10px;
     }
     
     * {
@@ -362,5 +374,62 @@
         height: 20px;
       }
 
+      .scene {
+        width: 220px;
+        height: 240px;
+        border: 1px solid #ccc;
+        margin: 4px;
+        perspective: 600px;
+      }
       
+      .card {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+        cursor: pointer;
+        position: relative;
+      }
+      
+      .card.is-flipped {
+        transform: rotateY(180deg);
+      }
+      
+      .card__face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        backface-visibility: hidden;
+      }
+      
+      .card__face--back {
+          text-align: center;
+        transform: rotateY(180deg);
+      }
+      
+      figure {
+          margin: 0px;
+          padding: 4px;
+      }
+      
+      button {
+        width: 300px;
+      }
+
+      .ability1button {
+        /* margin-right: 10%; */
+        width: 75px;
+        height: 45px;
+      }
+
+      .ability2button {
+         /* margin-right: 10%; */
+         width: 75px;
+         height: 45px;
+      }
+    
       
