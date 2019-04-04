@@ -48,8 +48,6 @@ const allCars = heros.map(myCar => {
   ability2Element.className = 'roles';
   ability2button.className = 'ability2button';
 
-  ability1button.innerHTML = "Ability 1";
-  ability2button.innerHTML = "Ability 2";
 
     makeElement.textContent = myCar.mAKE;
     roleElement.textContent = myCar.role;
