@@ -42,6 +42,8 @@ main {
 .card__face--back {
     text-align: center;
   transform: rotateY(180deg);
+  /* position: absolute; */
+  
 }
 
 figure {
@@ -49,12 +51,28 @@ figure {
     padding: 4px;
 }
 
+.infodiv {
+  position: relative;
+  font-size: 1.5rem;
+}
+
 button {
   width: 300px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
 }
 
 img {
     padding: 4px;
     width: 200px;
     height: 200px;
+}
+
+.backImage {
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 50%;
 }

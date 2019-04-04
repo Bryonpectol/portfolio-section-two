@@ -22,14 +22,14 @@
       margin: 8px;
       padding: 100px;
       text-align: center;
-      border: solid 2px midnightblue;
+      border: solid 2px #FCBA36;
       border-radius: 5px;
       /* font-weight: bold; */
       position: fixed;
       top: 0;
       bottom: 15;
-      background-color: #1EBFF4;
-      color: black;
+      background-color: midnightblue;
+      color: white;
   }
 
   .exit {
