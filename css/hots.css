@@ -15,6 +15,32 @@
         font-weight: bold;
     }
 
+    .bolso {
+      text-align: center;
+      width: 1000px;
+      /* height: 750px; */
+      margin: 8px;
+      padding: 100px;
+      text-align: center;
+      border: solid 2px midnightblue;
+      border-radius: 5px;
+      /* font-weight: bold; */
+      position: fixed;
+      top: 0;
+      bottom: 15;
+      background-color: #1EBFF4;
+      color: black;
+  }
+
+  .exit {
+    border: 1px black solid;
+    border-radius: 50%;
+    width: 50px;
+    cursor: pointer;
+    float: left;
+    margin-right: 100%;
+  }
+
     .role {
       font-weight: normal;
     }
@@ -22,6 +48,7 @@
     .roles {
       font-weight: normal;
       margin-top: 10px;
+      border: 1px black solid;
     }
     
     * {
@@ -424,6 +451,7 @@
         /* margin-right: 10%; */
         width: 75px;
         height: 45px;
+        cursor: pointer;
       }
 
       .ability2button {
