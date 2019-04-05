@@ -5176,7 +5176,7 @@ export const heros = [
                 "owner": "Chromie",
                 "name": "Q1",
                 "title": "Sand Blast",
-                "ability1": "After 0.5 seconds, fire a missile that deals 280 (+4% per level) damage to the first enemy hit. Deals 50% damage to Structures.  Casting Sand Blast leaves an Echo behind that mimics Chromie's Sand Blast and Basic Attack, dealing 50% damage. Maximum of 1 Echo active at a time.",
+                "ability1": "Ability 1: After 0.5 seconds, fire a missile that deals 280 (+4% per level) damage to the first enemy hit. Deals 50% damage to Structures.  Casting Sand Blast leaves an Echo behind that mimics Chromie's Sand Blast and Basic Attack, dealing 50% damage. Maximum of 1 Echo active at a time.",
                 "icon": null,
                 "hotkey": "Q",
                 "cooldown": 3,
