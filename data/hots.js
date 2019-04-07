@@ -5187,7 +5187,7 @@ export const heros = [
                 "owner": "Chromie",
                 "name": "W1",
                 "title": "Dragon's Breath",
-                "ability1": "Vector Targeting Launch 3 blasts into the air that land every 0.75 seconds towards the targeted direction, dealing 195 (+4% per level) damage each.",
+                "ability2": "Ability 2: Vector Targeting Launch 3 blasts into the air that land every 0.75 seconds towards the targeted direction, dealing 195 (+4% per level) damage each.",
                 "icon": null,
                 "hotkey": "W",
                 "cooldown": 15,
