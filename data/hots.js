@@ -5198,7 +5198,7 @@ export const heros = [
                 "owner": "Chromie",
                 "name": "E1",
                 "title": "Time Trap",
-                "ability1": "Place a Time Trap that arms and Stealths after 2 seconds. Chromie's Trait can be activated to detonate the trap, placing all nearby allied or enemy Heroes in Time Stop for 2 seconds. Maximum of 1 trap active at a time.",
+                "ability3": "Ability 3: Place a Time Trap that arms and Stealths after 2 seconds. Chromie's Trait can be activated to detonate the trap, placing all nearby allied or enemy Heroes in Time Stop for 2 seconds. Maximum of 1 trap active at a time.",
                 "icon": null,
                 "hotkey": "E",
                 "cooldown": 15,
