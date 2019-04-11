@@ -40,10 +40,8 @@ main {
 }
 
 .card__face--back {
-    text-align: center;
+text-align: center;
   transform: rotateY(180deg);
-  /* position: absolute; */
-  
 }
 
 figure {
@@ -51,17 +49,12 @@ figure {
     padding: 4px;
 }
 
-.infodiv {
-  position: relative;
-  font-size: 1.5rem;
-}
-
 button {
   width: 300px;
-  height: 60px;
-  background-color: black;
-  color: white;
+  height: 80px;
   font-size: 1.5rem;
+  background-color: #008080;
+  color: #FCBA36;
 }
 
 img {
@@ -71,8 +64,12 @@ img {
 }
 
 .backImage {
-  position: relative;
-  top: 0;
-  left: 0;
-  opacity: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+}
+
+.infoDiv {
+    position: relative;
 }

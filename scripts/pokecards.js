@@ -1,7 +1,5 @@
 import { pokemon } from '../data/pokemon.js'
 
-
-
 const mainContainer = document.querySelector('.container')
 
 function cardFront(pokeData) {
@@ -24,21 +22,21 @@ function cardFront(pokeData) {
     return cardFront
 }
 
-function cardInfo(pokeData) {
+function cardBackInfo(pokeData) {
     let infoDiv = document.createElement('div')
-    infoDiv.className = 'infodiv'
+    infoDiv.className = 'infoDiv'
     let moveOne = document.createElement('p')
-    let movetwo = document.createElement('p')
-    let movethree = document.createElement('p')
-    let movefour = document.createElement('p')
-    moveOne.textContent = pokeData.moves[0].move.name;
-    moveOne.textContent = pokeData.moves[1].move.name;
-    moveOne.textContent = pokeData.moves[2].move.name;
-    moveOne.textContent = pokeData.moves[3].move.name;
+    let moveTwo = document.createElement('p')
+    let moveThree = document.createElement('p')
+    let moveFour = document.createElement('p')
+    moveOne.textContent = pokeData.moves[0].move.name
+    moveTwo.textContent = pokeData.moves[1].move.name
+    moveThree.textContent = pokeData.moves[2].move.name
+    moveFour.textContent = pokeData.moves[3].move.name
     infoDiv.appendChild(moveOne)
-    infoDiv.appendChild(movetwo)
-    infoDiv.appendChild(movethree)
-    infoDiv.appendChild(movefour)
+    infoDiv.appendChild(moveTwo)
+    infoDiv.appendChild(moveThree)
+    infoDiv.appendChild(moveFour)
     return infoDiv
 }
 
@@ -49,7 +47,7 @@ function cardBack(pokeData) {
     backImage.src = `../images/pokeball.png`
     cardBack.className = 'card__face card__face--back'
     cardBack.appendChild(backImage)
-    cardBack.appendChild(cardInfo(pokeData))
+    cardBack.appendChild(cardBackInfo(pokeData))
     return cardBack
 }
 
@@ -81,6 +79,9 @@ pokemon.forEach(singleMon => {
 })
 
 function matchIdToImage(aPokemon) {
+    if(aPokemon.id === 0) {
+        aPokemon.imageID = 0
+    }
     if(aPokemon.id < 10) {
         aPokemon.imageID = "00" + aPokemon.id
     }
@@ -90,11 +91,6 @@ function matchIdToImage(aPokemon) {
     if(aPokemon.id > 99) {
         aPokemon.imageID = aPokemon.id
     }
-    let dashIndex = aPokemon.name.indexOf("-")
-   if (dashIndex !== -1) {
-       console.log("found a pokemon who has a dash in their name.")
-       aPokemon.name = aPokemon.name.slice(0, dashIndex)
-   }
     aPokemon.name = aPokemon.name.charAt(0).toUpperCase() + aPokemon.name.slice(1)
     return aPokemon
 }
@@ -116,12 +112,10 @@ class Pokemon {
     }
 }
 
-
 const newPokemonButton = document.querySelector('button')
 
 newPokemonButton.addEventListener('click', function() {
-    let pokeName = prompt("Enter a Name of Pokemon")
-    createPokeCard(new Pokemon(pokeName))
+    createPokeCard(matchIdToImage(new Pokemon('Thoremon')))
     // let pokemonID = prompt('Enter an ID of an existing pokemon:')
     // fetchSinglePokemon(pokemonID)
   });
