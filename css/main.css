@@ -263,6 +263,7 @@ figcaption {
   }
   nav ul li {
     margin: 20px;
+    width: 600px;
   }
   .project {
     margin: 40px 0;
