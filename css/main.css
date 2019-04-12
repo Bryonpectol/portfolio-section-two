@@ -437,6 +437,11 @@ i:hover {
   #navbar {
     display: none;
   }
+
+  #video {
+    margin-left: 47%;
+    /* background-color: #edeae5; */
+  }
 }
 
 @media only screen and (min-width: 600px) {
