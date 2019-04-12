@@ -5,47 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Bryon's Portfolio Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel='shortcut icon' type='image/x-icon' href='assets/mylogo.png' />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/mylogo.png" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Courgette|Righteous" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette|Righteous"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <script type="module" src="/scripts/main.js"></script> -->
   </head>
   <body>
     <nav>
       <ul id="navbar">
-          <a href = "index.html"><img class = "navimg" src = "assets/mylogo.png" /></a>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="projects.html">Projects</a></li>
+        <a href="index.html"><img class="navimg" src="assets/mylogo.png"/></a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <nav id="hamburger">
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home : Bryon Pectol</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html"><img id="navimg" src="assets/mylogo.png"/></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
 
-      <a href = "" onclick="hammenu()"><img class = "hamimg" src="/images/menu.png" /></a>
-      
-    </nav>
-
-    <div class = "utldiv">
-    <div id = "top" class="myintro">
-        <a class = "noline" href = "#hisintro"><h1 class="h1">Hello, I'm Bryon</h1></a>
-      
+    <div class="utldiv">
+      <div id="top" class="myintro">
+        <a class="noline" href="#hisintro"
+          ><h1 class="h1">Hello, I'm Bryon</h1></a
+        >
+      </div>
     </div>
-  </div>
 
-    
-        <a id = "hisintro" class = "hisintro" href = "#video"><h3>I am a Web developer at Utah Valley University</h3></a>
-        <div class = "videoyes">
-     <div id = "video" class = "videoyes">
-      <video width="320" autoplay = "false" height="240" controls = "false" autoplay = "false">
-        <source src="assets/startagain.mp4" type="video/mp4">
-    </video>
-</div>
-</div>
+    <a id="hisintro" class="hisintro" href="#video"
+      ><h3>I am a Web developer at Utah Valley University</h3></a
+    >
+    <div class="videoyes">
+      <div id="video" class="videoyes">
+        <video
+          width="320"
+          autoplay="false"
+          height="240"
+          controls="false"
+          autoplay="false"
+        >
+          <source src="assets/startagain.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
     <!-- <div id="projects" class="work"> -->
-      <!-- <h2 class="work-header">These are some of my projects...</h2> -->
+    <!-- <h2 class="work-header">These are some of my projects...</h2> -->
 
-      <!-- <div class="project-tile">
+    <!-- <div class="project-tile">
         <figure>
           <a target = "_blank" href="https://allcarcards.com">
             <img
@@ -102,7 +123,7 @@
       </div> -->
     <!-- </div> -->
 
-      <!--Below is my Footer-->
+    <!--Below is my Footer-->
 
     <footer id="contact">
       <div class="contact-center">
@@ -120,26 +141,40 @@
           >GitHub</a
         >
         <a
-        href="https://www.linkedin.com/in/bryon-pectol-134ab0120/"
-        target="_blank"
-        class="contact-details"
-        >LinkedIn</a
-      >
-        
+          href="https://www.linkedin.com/in/bryon-pectol-134ab0120/"
+          target="_blank"
+          class="contact-details"
+          >LinkedIn</a
+        >
+
         <a href="mailto:bryon.pectol@gmail.com" class="contact-details"
           >Email</a
         >
         <a href="tel:801-347-0862" class="contact-details">Call me</a>
 
-        <a href="#top" class="contact-details">To Top  &#8593;</a>
+        <a href="#top" class="contact-details">To Top &#8593;</a>
       </div>
 
-      <p>Bryon Pectol, <a class = "footer-link" href = "https://bryonsportfolio.netlify.com/">https://bryonsportfolio.netlify.com/</a> &copy; 2019 All rights reserved.</p>
+      <p>
+        Bryon Pectol,
+        <a class="footer-link" href="https://bryonsportfolio.netlify.com/"
+          >https://bryonsportfolio.netlify.com/</a
+        >
+        &copy; 2019 All rights reserved.
+      </p>
     </footer>
 
     <!-- <script src = "data/scrawlAnimation.js"></script> -->
-    <script type="module" src="/scripts/main.js"></script>
-   
 
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
