@@ -495,3 +495,9 @@ i:hover {
     display: none;
   }
 }
+
+@media only screen and (min-width: 600px) {
+  #navimg {
+    display: none;
+  }
+}

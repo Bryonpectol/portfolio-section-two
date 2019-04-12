@@ -164,7 +164,7 @@ figcaption {
   font-family: "Courgette", cursive;
 }
 
-#navimg {
+.navimg {
   display: inline-block;
   padding: 2px;
   width: 55px;
@@ -418,7 +418,7 @@ i:hover {
   }
 
   #navimg {
-    /* display: flex; */
+    /* display: none; */
     /* justify-content: center; */
     /* padding: 2px; */
     width: 35px;
@@ -433,6 +433,12 @@ i:hover {
 
 @media only screen and (max-width: 600px) {
   #navbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navimgyes {
     display: none;
   }
 }
