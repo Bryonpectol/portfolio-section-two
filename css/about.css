@@ -422,6 +422,58 @@ i:hover {
     width: 50px;
     height: 50px;
   }
+
+  .aboutp {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    text-align: center;
+    /* margin-right: 35%; */
+    padding-top: 10px;
+    color: #008080;
+    font-family: "Righteous", cursive;
+    width: 200px;
+  }
+
+  .anotherdiv {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding-right: 45%;
+    background-color: #edeae5;
+    padding-bottom: 50px;
+  }
+
+  .abouth1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    text-align: center;
+    /* margin-right: 36%; */
+    margin-bottom: 5px;
+    padding-top: 100px;
+    color: #008080;
+    font-family: "Courgette", cursive;
+    width: 200px;
+  }
+
+  .abouth2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    text-align: center;
+    /* margin-right: 35%; */
+    padding-top: 10px;
+    color: #008080;
+    font-family: "Courgette", cursive;
+    width: 200px;
+  }
+
+  .meimg {
+    width: 175px;
+    text-align: center;
+    /* padding-right: 45%; */
+}
 }
 
 @media screen and (max-width: 600px) {
