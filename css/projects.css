@@ -524,17 +524,6 @@
   }
   
   @media only screen and (min-width: 601px) {
-    .navimgyes {
-      display: none;
-    }
-  
-    .hisintro1 {
-      display: none;
-    }
-  
-    .myintro1 {
-      display: none;
-    }
   
     .contact-details1 {
       display: none;
@@ -543,17 +532,6 @@
   }
   
   @media only screen and (max-width: 600px) {
-    #hisintro {
-  display: none;
-    }
-  
-    .hisintro {
-      display: none;
-    }
-  
-    .myintro {
-      display: none;
-    }
   
     .contact-details {
       display: none;

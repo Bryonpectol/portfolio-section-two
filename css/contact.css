@@ -238,6 +238,22 @@
     text-decoration: none;
     text-align: center;
   }
+
+  .contact-details1 {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 35px 45px 35px;
+    list-style-type: none;
+    border: 2px solid #90c695;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #e0ebe8;
+    color: #008080;
+    text-decoration: none;
+    text-align: center;
+  }
   
   .show-all {
     text-decoration: none;
@@ -593,6 +609,21 @@
   
   @media only screen and (min-width: 600px) {
     #navimg {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 601px) {
+  
+    .contact-details1 {
+      display: none;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    .contact-details {
       display: none;
     }
   }
