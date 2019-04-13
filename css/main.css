@@ -65,11 +65,37 @@ nav ul li a:hover {
   height: 96vh;
 }
 
+.myintro1 {
+  top: 0;
+  background-color: #edeae5;
+  min-height: 55vh;
+  padding-top: 45;
+  line-height: 100vh;
+  width: 100%;
+  height: 96vh;
+}
+
 .anotherdiv {
   background-color: #edeae5;
 }
 
 .hisintro {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 0;
+  background-color: #edeae5;
+  justify-content: space-around;
+  padding-top: 10vh;
+  line-height: 100vh;
+  width: 100%;
+  height: 96vh;
+  color: #008080;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+}
+
+.hisintro1 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -206,6 +232,22 @@ figcaption {
   text-align: center;
 }
 
+.contact-details1 {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #90c695;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+  text-align: center;
+}
+
 .show-all {
   text-decoration: none;
   display: block;
@@ -266,7 +308,7 @@ figcaption {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: 27.5%;
+  margin-left: 50%;
   width: 700px;
   background-color: #edeae5;
   color: #edeae5;
@@ -444,8 +486,39 @@ i:hover {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
   .navimgyes {
+    display: none;
+  }
+
+  .hisintro1 {
+    display: none;
+  }
+
+  .myintro1 {
+    display: none;
+  }
+
+  .contact-details1 {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  #hisintro {
+display: none;
+  }
+
+  .hisintro {
+    display: none;
+  }
+
+  .myintro {
+    display: none;
+  }
+
+  .contact-details {
     display: none;
   }
 }
