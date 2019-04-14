@@ -329,6 +329,14 @@ footer p {
   padding: 25px;
 }
 
+.video {
+  background-color: #edeae5;
+  margin: 0px;
+  /* padding-right: 32px; */
+  width: 100%;
+  /* margin-left: 40px; */
+}
+
 .introp {
   margin: 0px;
   padding: 0px;
@@ -391,7 +399,7 @@ i:hover {
     background-color: #edeae5;
     margin: 0px;
     /* padding-right: 32px; */
-    width: 90%;
+    width: 100%;
     /* margin-left: 40px; */
   }
 
