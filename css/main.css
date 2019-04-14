@@ -160,6 +160,8 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
+
+
 figure {
   max-width: 200px;
 }
@@ -358,10 +360,7 @@ i:hover {
   color: #008080;
 }
 
-#video {
-  width: 20px;
-  text-align: center;
-}
+
 
 /* .icon {
   width: 100px;
@@ -386,6 +385,18 @@ i:hover {
     border: none;
     width: 50px;
     height: 50px;
+  }
+
+  .video {
+    background-color: #edeae5;
+    margin: 0px;
+    /* padding-right: 32px; */
+    width: 90%;
+    /* margin-left: 40px; */
+  }
+
+  .videoyes {
+
   }
 }
 
@@ -462,10 +473,7 @@ i:hover {
     display: none;
   }
 
-  #video {
-    margin-left: 47%;
-    /* background-color: #edeae5; */
-  }
+  
 }
 
 @media only screen and (min-width: 601px) {
