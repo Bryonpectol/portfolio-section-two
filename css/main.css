@@ -304,24 +304,6 @@ figcaption {
   
 }
 
-#video {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 50%;
-  width: 700px;
-  background-color: #edeae5;
-  color: #edeae5;
-}
-
-.videodiv {
-  background-color: #edeae5;
-}
-
-.videoyes {
-  background-color: #edeae5;
-}
-
 .contact-center {
   display: flex;
   text-align: center;
