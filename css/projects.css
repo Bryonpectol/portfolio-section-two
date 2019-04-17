@@ -543,6 +543,10 @@
     .contact-details {
       display: none;
     }
+
+    .myh1 {
+      display: none;
+    }
   }
 
   #gallery {

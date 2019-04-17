@@ -101,7 +101,7 @@ nav ul li a:hover {
   text-align: center;
   margin-left: 35%;
   padding-top: 10px;
-  color: #008080;
+  color: #fcba36;
   font-family: "Courgette", cursive;
   width: 500px;
 }
@@ -137,7 +137,7 @@ hr {
   flex-wrap: wrap;
   /* justify-content: center; */
   text-align: center;
-  margin-left: 36%;
+  margin-left: 40%;
   margin-bottom: 5px;
   padding-top: 100px;
   color: #008080;
@@ -346,6 +346,18 @@ figcaption {
   }
   .project {
     margin: 40px 0;
+  }
+
+  .abouth2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 10px;
+    color: #fcba36;
+    font-family: "Courgette", cursive;
+    width: 500px;
   }
 }
 
@@ -558,6 +570,10 @@ i:hover {
     /* padding-bottom: 50px; */
     /* float: right bottom; */
   }
+
+  .myintro {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -585,4 +601,15 @@ i:hover {
   .contact-details {
     display: none;
   }
+}
+
+.myh1 {
+  text-decoration: none;
+  color: #008080;
+  font-family: 'Courgette', cursive;
+}
+
+#gallery {
+  padding-bottom: 100px;
+  background-color: #edeae5;
 }
