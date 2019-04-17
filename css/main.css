@@ -332,9 +332,10 @@ footer p {
 .video {
   background-color: #edeae5;
   margin: 0px;
+  text-align: center;
   /* padding-right: 32px; */
-  width: 100%;
-  /* margin-left: 40px; */
+  width: 1000px;
+  margin-left: 17%;
 }
 
 .introp {
@@ -519,4 +520,9 @@ display: none;
   .contact-details {
     display: none;
   }
+}
+
+#gallery {
+  padding-bottom: 100px;
+  background-color: #edeae5;
 }
