@@ -348,17 +348,7 @@ figcaption {
     margin: 40px 0;
   }
 
-  .abouth2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin-left: 35%;
-    padding-top: 10px;
-    color: #fcba36;
-    font-family: "Courgette", cursive;
-    width: 500px;
-  }
+  
 }
 
 @media only screen and (max-width: 367px) {
@@ -485,18 +475,6 @@ i:hover {
     width: 200px;
   }
 
-  .abouth2 {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    text-align: center;
-    /* margin-right: 35%; */
-    padding-top: 10px;
-    color: #008080;
-    font-family: "Courgette", cursive;
-    width: 200px;
-  }
-
   .meimg {
     width: 175px;
     text-align: center;
@@ -580,11 +558,35 @@ i:hover {
   #navbar {
     display: none;
   }
+
+  .abouth2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: -25%;
+    padding-top: 10px;
+    color: #fcba36;
+    font-family: "Courgette", cursive;
+    width: 500px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   #navimg {
     display: none;
+  }
+
+  .abouth2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 10px;
+    color: #fcba36;
+    font-family: "Courgette", cursive;
+    width: 500px;
   }
 }
 
