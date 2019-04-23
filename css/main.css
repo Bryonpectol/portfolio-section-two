@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+body {
+  background-color: #EDEAE5;
+}
+
 nav ul {
   text-align: right;
   position: fixed;
@@ -333,7 +337,8 @@ footer p {
   background-color: #edeae5;
   margin: 0px;
   text-align: center;
-  /* padding-right: 32px; */
+  /* padding-right: 50%; */
+  /* padding-left: 500px; */
   width: 1000px;
   margin-left: 17%;
 }
@@ -369,7 +374,9 @@ i:hover {
   color: #008080;
 }
 
-
+.videocolor {
+  background-color: #edeae5;
+}
 
 /* .icon {
   width: 100px;
