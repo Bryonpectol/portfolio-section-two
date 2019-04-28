@@ -8246,7 +8246,7 @@ export const heros = [
                 "owner": "Garrosh",
                 "name": "Q1",
                 "title": "Groundbreaker",
-                "ability1": "Deal 81 (+4% per level) damage to enemies in an area. Heroes hit on the outer edge are Stunned for 0.5 seconds and then Slowed by 40% for 2 seconds.",
+                "ability1": "ABility 1: Deal 81 (+4% per level) damage to enemies in an area. Heroes hit on the outer edge are Stunned for 0.5 seconds and then Slowed by 40% for 2 seconds.",
                 "icon": null,
                 "hotkey": "Q",
                 "cooldown": 8,
