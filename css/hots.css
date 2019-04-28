@@ -340,9 +340,11 @@
         .project {
           margin: 40px 0;
         }
+
+        
       }
       
-      @media only screen and (max-width: 367px) {
+      @media only screen and (max-width: 600px) {
         /*    #contact{
             min-height:1100px;
           } */
@@ -356,6 +358,15 @@
           line-height: normal;
           flex-wrap: wrap;
         }
+
+        .bolso {
+          width: 200px;
+          /* height: 50px; */
+        }
+      }
+
+      @media only screen and (min-width: 601px) {
+
       }
       
       #video {
