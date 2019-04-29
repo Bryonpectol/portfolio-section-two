@@ -556,3 +556,16 @@ i:hover {
   padding-bottom: 100px;
   background-color: #edeae5;
 }
+
+.calenderh3 {
+  font-family: 'Righteous', cursive;
+  color: #008080;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.calenderdiv {
+  margin-bottom: 10px;
+  /* background-color: white; */
+  /* width: 1000px; */
+}
