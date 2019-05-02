@@ -95,6 +95,30 @@ nav ul li a:hover {
   width: 500px;
 }
 
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-left: 35%;
+  padding-top: 10px;
+  color: #fcba36;
+  font-family: "Righteous", cursive;
+  width: 500px;
+}
+
+.aboutit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-left: 35%;
+  padding-top: 10px;
+  color: #008080;
+  font-family: "Righteous", cursive;
+  width: 500px;
+}
+
 .abouth2 {
   display: flex;
   flex-wrap: wrap;
@@ -105,6 +129,28 @@ nav ul li a:hover {
   color: #fcba36;
   font-family: "Courgette", cursive;
   width: 500px;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  *{
+    /* width: 100%; */
+  }
+
+  .ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    /* width: 100px; */
+  }
+
+  .abouth2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 200px; */
+  }
 }
 
 .meimg {
