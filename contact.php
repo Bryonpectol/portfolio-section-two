@@ -34,7 +34,7 @@
       <a href="about.html">About Me</a>
       <a href="projects.html">Projects</a>
       <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+      <a href="contact.php">Contact</a>
       <a href="index.html"><img id="navimg" src="assets/mylogo.png"/></a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -54,25 +54,19 @@
       <form name="contactform" method="post" action="/scripts/contactyes.php">
      
         
-         
-              <label for="first_name">First Name *</label>
 
               <input type="text" name="first_name" maxlength="50" size="30" placeholder="John" />
           
-         
-              <label for="last_name">Last Name *</label>
+
            
               <input type="text" name="last_name" maxlength="50" size="30" placeholder="Smith" />
-           
-              <label for="email">Email Address *</label>
+
             
               <input type="text" name="email" maxlength="80" size="30" placeholder="john@example.com" />
-            
-              <label for="telephone">Telephone Number</label>
+
            
               <input type="text" name="telephone" maxlength="30" size="30" placeholder="(123) 456-7890" />
            
-              <label for="comments">Comments *</label>
            
               <textarea
                 name="comments"

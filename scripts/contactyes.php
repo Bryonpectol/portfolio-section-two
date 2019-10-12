@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
   $txt = "This email is from: ".$first_name." ".$last_name.".\n\n".$message;
 
   mail($mailTo, $mailFrom, $txt, $headers);
-  header("Location: contact.html?mailsend");
+  header("Location: contact.php?mailsend");
 
 }
 ?>
