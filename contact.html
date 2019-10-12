@@ -1,195 +1,170 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Contact Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="/css/contact.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="/scripts/contact.js"></script>
-</head>
-<body>
-    
+  </head>
+  <body>
     <nav>
-        <ul id="navbar">
-            <a href = "index.html"><img class = "navimg" src = "assets/mylogo.png" /></a>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <ul id="navbar">
+        <a href="index.html"><img class="navimg" src="assets/mylogo.png"/></a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-      <div class="topnav" id="myTopnav">
-          <a href="index.html" class="active">Home : Bryon Pectol</a>
-          <a href="about.html">About Me</a>
-          <a href="projects.html">Projects</a>
-          <a href="gallery.html">Gallery</a>
-          <a href="contact.html">Contact</a>
-          <a href="index.html"><img id="navimg" src="assets/mylogo.png"/></a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home : Bryon Pectol</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html"><img id="navimg" src="assets/mylogo.png"/></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
-      <br />
-      <br />
-      <br />
-      <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-
-      <p>This page is currently under construction. Sorry! :( </p>
+    <p>This page is currently under construction. Sorry! :(</p>
 
     <div class="body">
-        <h2>Contact Me</h2>
+      <h2>Contact Me</h2>
 
-        <br />
+      <br />
 
-        <form name="contactform" method="get" action="/scripts/contactyes.php">
-                <table width="450px">
-                <tr>
-                 <td valign="top">
-                  <label for="first_name">First Name *</label>
-                 </td>
-                 <td valign="top">
-                  <input  type="text" name="first_name" maxlength="50" size="30">
-                 </td>
-                </tr>
-                <tr>
-                 <td valign="top">
-                  <label for="last_name">Last Name *</label>
-                 </td>
-                 <td valign="top">
-                  <input  type="text" name="last_name" maxlength="50" size="30">
-                 </td>
-                </tr>
-                <tr>
-                 <td valign="top">
-                  <label for="email">Email Address *</label>
-                 </td>
-                 <td valign="top">
-                  <input  type="text" name="email" maxlength="80" size="30">
-                 </td>
-                </tr>
-                <tr>
-                 <td valign="top">
-                  <label for="telephone">Telephone Number</label>
-                 </td>
-                 <td valign="top">
-                  <input  type="text" name="telephone" maxlength="30" size="30">
-                 </td>
-                </tr>
-                <tr>
-                 <td valign="top">
-                  <label for="comments">Comments *</label>
-                 </td>
-                 <td valign="top">
-                  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-                 </td>
-                </tr>
-                <tr>
-                 <td colspan="2" style="text-align:center">
-                  <input type="submit" value="Submit">
-                 </td>
-                </tr>
-                </table>
-                </form>
-                
+      <form name="contactform" method="post" action="/scripts/contactyes.php">
+     
+        
+         
+              <label for="first_name">First Name *</label>
 
+              <input type="text" name="first_name" maxlength="50" size="30" placeholder="John" />
+          
+         
+              <label for="last_name">Last Name *</label>
+           
+              <input type="text" name="last_name" maxlength="50" size="30" placeholder="Smith" />
+           
+              <label for="email">Email Address *</label>
+            
+              <input type="text" name="email" maxlength="80" size="30" placeholder="john@example.com" />
+            
+              <label for="telephone">Telephone Number</label>
+           
+              <input type="text" name="telephone" maxlength="30" size="30" placeholder="(123) 456-7890" />
+           
+              <label for="comments">Comments *</label>
+           
+              <textarea
+                name="comments"
+                maxlength="1000"
+                cols="25"
+                rows="6"
+                placeholder="Message here:" 
+              ></textarea>
+    
+              <button type="submit" name="submit">SEND</button>
+          
+      </form>
 
-        <!-- <textarea name="comment" form="usrform">Enter text here...</textarea> -->
+      <!-- <textarea name="comment" form="usrform">Enter text here...</textarea> -->
 
-
-        <!-- <p class = "contact-yes"><strong>Email: </strong><a class = "email" href = "mailto:bryon.pectol@gmail.com">bryon.pectol@gmail.com</a></p>
+      <!-- <p class = "contact-yes"><strong>Email: </strong><a class = "email" href = "mailto:bryon.pectol@gmail.com">bryon.pectol@gmail.com</a></p>
         <p class = "contact-yes"><strong>Phone: </strong><a class = "email" href = "tel:(801)347-0862">(801) 347-0862</a></p> -->
+    </div>
 
-      </div>
+    <footer id="contact">
+      <div class="contact-center">
+        <a
+          href="https://www.facebook.com/BryonPectol"
+          target="_blank"
+          class="contact-details"
+          >Facebook</a
+        >
 
-      <footer id="contact">
-        <div class="contact-center">
-          <a
-            href="https://www.facebook.com/BryonPectol"
-            target="_blank"
-            class="contact-details"
-            >Facebook</a
-          >
-  
-          <a
+        <a
           href="https://www.facebook.com/BryonPectol"
           target="_blank"
           class="contact-details1"
           >Facebook</a
         >
-  
-          <a
-            id="profile-link"
-            href="https://github.com/Bryonpectol"
-            target="_blank"
-            class="contact-details"
-            >GitHub</a
-          >
-  
-          <a
+
+        <a
+          id="profile-link"
+          href="https://github.com/Bryonpectol"
+          target="_blank"
+          class="contact-details"
+          >GitHub</a
+        >
+
+        <a
           id="profile-link"
           href="https://github.com/Bryonpectol"
           target="_blank"
           class="contact-details1"
           >GitHub</a
         >
-  
-          <a
-            href="https://www.linkedin.com/in/bryon-pectol-134ab0120/"
-            target="_blank"
-            class="contact-details"
-            >LinkedIn</a
-          >
-  
-          <a
-            href="https://www.linkedin.com/in/bryon-pectol-134ab0120/"
-            target="_blank"
-            class="contact-details1"
-            >LinkedIn</a
-          >
-  
-          <a href="mailto:bryon.pectol@gmail.com" class="contact-details"
-            >Email</a
-          >
-  
-          <a href="mailto:bryon.pectol@gmail.com" class="contact-details1"
+
+        <a
+          href="https://www.linkedin.com/in/bryon-pectol-134ab0120/"
+          target="_blank"
+          class="contact-details"
+          >LinkedIn</a
+        >
+
+        <a
+          href="https://www.linkedin.com/in/bryon-pectol-134ab0120/"
+          target="_blank"
+          class="contact-details1"
+          >LinkedIn</a
+        >
+
+        <a href="mailto:bryon.pectol@gmail.com" class="contact-details"
           >Email</a
         >
-  
-          <a href="tel:801-347-0862" class="contact-details">Call me</a>
-  
-          <a href="tel:801-347-0862" class="contact-details1">Call me</a>
-  
-          <a href="#top" class="contact-details">To Top &#8593;</a>
-  
-          <a href="#myTopnav" class="contact-details1">To Top &#8593;</a>
-        </div>
-  
-        <p>
-          Bryon Pectol,
-          <a class="footer-link" href="https://bryonsportfolio.netlify.com/"
-            >https://bryonsportfolio.netlify.com/</a
-          >
-          &copy; 2019 All rights reserved.
-        </p>
-      </footer>
 
-      <script>
+        <a href="mailto:bryon.pectol@gmail.com" class="contact-details1"
+          >Email</a
+        >
 
-            let br = document.createElement('br');
-    
-    
-    
-                window.alert("This page is currently under construction. " + location.hostname + " :(");
-                </script>
+        <a href="tel:801-347-0862" class="contact-details">Call me</a>
 
-</body>
+        <a href="tel:801-347-0862" class="contact-details1">Call me</a>
+
+        <a href="#top" class="contact-details">To Top &#8593;</a>
+
+        <a href="#myTopnav" class="contact-details1">To Top &#8593;</a>
+      </div>
+
+      <p>
+        Bryon Pectol,
+        <a class="footer-link" href="https://bryonsportfolio.netlify.com/"
+          >https://bryonsportfolio.netlify.com/</a
+        >
+        &copy; 2019 All rights reserved.
+      </p>
+    </footer>
+
+  </body>
 </html>
