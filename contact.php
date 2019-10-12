@@ -51,26 +51,26 @@
 
       <br />
 
-      <div class="container">
-    <div class="form-container front">
-    	<h1 class="form-label">Material Design Form</h1>
-        <form>
-            <div class="group">
-                <input type="text" required>
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>Name</label>
-            </div>
-            <div class="group">
-                <input type="text" required>
-                <span class="highlight"></span>
-                <span class="bar"></span>
-                <label>Email</label>
-            </div>
-            <!-- Message body -->
-            <textarea class="message-form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-            <input type="submit" class="button raised btn btn-primary btn-lg">
-        </form>
+      <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
     </div>
 </div>
 
