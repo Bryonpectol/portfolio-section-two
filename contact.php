@@ -46,8 +46,6 @@
     <br />
     <br />
 
-    <p>This page is currently under construction. Sorry! :(</p>
-
     <div class="body">
       <h2>Contact Me</h2>
 
