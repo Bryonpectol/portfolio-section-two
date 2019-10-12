@@ -51,34 +51,29 @@
 
       <br />
 
-      <form name="contactform" method="post" action="/scripts/contactyes.php">
-     
-        
+      <div class="container">
+    <div class="form-container front">
+    	<h1 class="form-label">Material Design Form</h1>
+        <form>
+            <div class="group">
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Name</label>
+            </div>
+            <div class="group">
+                <input type="text" required>
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Email</label>
+            </div>
+            <!-- Message body -->
+            <textarea class="message-form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+            <input type="submit" class="button raised btn btn-primary btn-lg">
+        </form>
+    </div>
+</div>
 
-              <input type="text" name="first_name" maxlength="50" size="30" placeholder="John" />
-          
-
-           
-              <input type="text" name="last_name" maxlength="50" size="30" placeholder="Smith" />
-
-            
-              <input type="text" name="email" maxlength="80" size="30" placeholder="john@example.com" />
-
-           
-              <input type="text" name="telephone" maxlength="30" size="30" placeholder="(123) 456-7890" />
-           
-           
-              <textarea
-                name="comments"
-                maxlength="1000"
-                cols="25"
-                rows="6"
-                placeholder="Message here:" 
-              ></textarea>
-    
-              <button type="submit" name="submit">SEND</button>
-          
-      </form>
 
       <!-- <textarea name="comment" form="usrform">Enter text here...</textarea> -->
 
