@@ -73,6 +73,11 @@
   .utldiv {
     background-color: #edeae5;
   }
+
+  .videoprotos {
+    text-align: center;
+    margin-left: 50px;
+  }
   
   .myintro {
     /* display: flex; */
