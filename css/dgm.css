@@ -620,6 +620,16 @@
       margin: 20px 12px 100px 0px;
   }
 
+  .secContainerp {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* flex-direction: c; */
+    flex-wrap: wrap;
+    margin: 20px 12px 100px 0px;
+    
+}
+
   .mainContaineri {
     display: flex;
     justify-content: center;
@@ -807,3 +817,302 @@
   .myh1 {
     text-decoration: none;
   }
+
+  /* adobe.js css */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+    .secContainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      }
+    
+    .box {
+        text-align: center;
+        width: 300px;
+        height: 525px;
+        margin: 8px;
+        text-align: center;
+        border: solid 7px midnightblue;
+        border-radius: 5px;
+        font-weight: bold;
+        /* background-color: ; */
+      box-shadow: 8px 8px 5px grey;
+    }
+
+    .box:hover {
+      text-align: center;
+      width: 300px;
+      height: 525px;
+      margin: 8px;
+      text-align: center;
+      border: solid 7px midnightblue;
+      border-radius: 5px;
+      font-weight: bold;
+      background-color: #fcba36;
+    box-shadow: none;
+  }
+
+    .bolso {
+      text-align: center;
+      width: 1000px;
+      /* height: 750px; */
+      margin: 8px;
+      padding: 100px;
+      text-align: center;
+      border: solid 2px #FCBA36;
+      border-radius: 5px;
+      /* font-weight: bold; */
+      position: fixed;
+      top: 0;
+      bottom: 15;
+      background-color: midnightblue;
+      color: white;
+  }
+
+  .exit {
+    border: 1px black solid;
+    border-radius: 50%;
+    width: 50px;
+    cursor: pointer;
+    float: left;
+    margin-right: 100%;
+  }
+
+    .role {
+      font-weight: normal;
+    }
+
+    .roles {
+      font-weight: normal;
+      margin-top: 10px;
+      border: 1px black solid;
+    }
+    
+
+      
+      .noline {
+        text-decoration: none;
+        color: #008080;
+      
+      
+      
+      .work {
+        background-color: #9FEDD7;
+      }
+      
+      .work-header {
+        padding: 5px;
+        text-align: center;
+      }
+      
+      .project {
+        text-decoration: none;
+        /* color: #008080;
+          display: inline-block;
+          overflow: hidden; */
+        border: 2px solid #db2b30;
+        /* height: 220px;
+          width: 280px;
+          margin: 40px 100px; */
+        /*   background: url("https://res.cloudinary.com/dck40m3wf/image/upload/v1455459914/Portfolio/fancy-floral-pattern-384.jpg") repeat; */
+      }
+      
+      .project-tile {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      .project-title {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      
+      .h1 {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        color: #008080;
+        font-family: 'Courgette', cursive;
+      }
+      
+      
+      .para {
+        text-align: center;
+        padding-bottom: 150px;
+      }
+      
+      .show-all {
+        text-decoration: none;
+        display: block;
+        width: 200px;
+        height: 30px;
+        margin: 20px auto 90px;
+        background: #e0ebe8;
+        color: #008080;
+        font-weight: bold;
+        font-size: 1em;
+        border: 5px solid #9bbfab;
+        border-radius: 4px;
+        cursor: pointer;
+        padding-top: 10px;
+      }
+      
+      .show-all:hover {
+        background: #e4f1fe;
+        color: green;
+      }
+      }
+      
+      @media only screen and (max-width: 600px) {
+        /*    #contact{
+            min-height:1100px;
+          } */
+
+        .bolso {
+          width: 200px;
+          /* height: 50px; */
+        }
+      }
+
+      @media only screen and (min-width: 601px) {
+
+      }
+
+      .imagecard {
+        height: 150px;
+      }
+      
+      .pokeh1 {
+          font-size: 50px;
+          color: #008080;
+      }
+    
+      footer p {
+        color: #fff;
+        text-align: center;
+        padding: 25px;
+      }
+      
+      .introp {
+        margin: 0px;
+        padding: 0px;
+        width: 20px;
+        height: 20px;
+      }
+
+      .scene {
+        width: 220px;
+        height: 240px;
+        border: 1px solid #ccc;
+        margin: 4px;
+        perspective: 600px;
+      }
+      
+      .card {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        transition: transform 1s;
+        transform-style: preserve-3d;
+        cursor: pointer;
+        position: relative;
+      }
+      
+      .card.is-flipped {
+        transform: rotateY(180deg);
+      }
+      
+      .card__face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        backface-visibility: hidden;
+      }
+      
+      .card__face--back {
+          text-align: center;
+        transform: rotateY(180deg);
+      }
+      
+      figure {
+          margin: 0px;
+          padding: 4px;
+      }
+      
+      button {
+        width: 300px;
+      }
+
+      .ability1button {
+        /* margin-right: 10%; */
+        width: 75px;
+        height: 45px;
+        cursor: pointer;
+        border-radius: 15px;
+        background-color: white;
+        color: midnightblue;
+        box-shadow: 3px 3px 0px grey;
+      }
+
+      .ability1button:hover {
+        /* margin-right: 10%; */
+        width: 75px;
+        height: 45px;
+        cursor: pointer;
+        border-radius: 15px;
+        background-color: midnightblue;
+        color: white;
+        box-shadow: 3px 3px 0px grey;
+      }
+
+      .ability1button:active {
+        /* margin-right: 10%; */
+        width: 75px;
+        height: 45px;
+        cursor: pointer;
+        border-radius: 15px;
+        background-color: midnightblue;
+        color: white;
+        box-shadow: none;
+      }
+
+      .ability2button {
+         /* margin-right: 10%; */
+         width: 75px;
+         height: 45px;
+      }
+
+      .active {
+        text-decoration: none;
+        border: 2px solid #008080;
+        border-radius: 10px;
+        color: white;
+        padding: 5px;
+      }
+      
+      .active:hover {
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: #008080;
+        padding: 5px;
+      }
+      
+      i {
+        color: white;
+      }
+      
+      i:hover {
+        color: #008080;
+      }
