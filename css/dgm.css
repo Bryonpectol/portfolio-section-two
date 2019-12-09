@@ -95,6 +95,10 @@
   #premiere {
     color: #EA77FF;
   }
+
+  #after-effects {
+    color: #D291FF;
+  }
   
   .myintro1 {
     top: 0;
@@ -205,11 +209,18 @@
     width: 180px;
     border: solid 5px #400d2a;
   }
+
+  #mainDiv {
+    padding-top: 40px;
+  }
   
   figcaption {
     display: flex;
     justify-content: center;
     color: #140a25;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* padding-top: 20px; */
   }
 
   .figcaptionp {
@@ -221,25 +232,26 @@
   .figcaptioni {
     display: flex;
     justify-content: center;
-    color: #31C5F0;
+    color: #ff8d22;
   }
 
   .figcaptionin {
     display: flex;
     justify-content: center;
-    color: #31C5F0;
+    color: #FF408C;
   }
 
   .figcaptionau {
     display: flex;
     justify-content: center;
-    color: #31C5F0;
+    color: #00E4BB;
   }
 
   .figcaptionpr {
     display: flex;
     justify-content: center;
-    color: #31C5F0;
+    color: #EA77FF;
+    /* padding-top: 5px; */
   }
 
   .figcaptionae {
@@ -626,6 +638,15 @@
   margin: 20px 12px 100px 0px;
 }
 
+.mainContainerae {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  /* flex-direction: c; */
+  flex-wrap: wrap;
+  margin: 20px 12px 100px 0px;
+}
+
 .mainContainer {
   display: flex;
   justify-content: center;
@@ -640,6 +661,7 @@
     padding-bottom: 150px;
     text-align: center;
     /* margin: 15px; */
+    /* width: 0px; */
   }
 
   .logo-image {
@@ -675,6 +697,7 @@
 
   #topbtn1:hover {
     transform: translate(0,5px);
+    cursor: pointer;
   }
 
   .mainContainer-2 {
@@ -725,6 +748,18 @@
   margin: 15px;
   /* flex-direction: column; */
   border: 5px solid #00E4BB;
+/* border-radius: 10px; */
+}
+
+.figureae {
+  display: flex;
+  justify-content: stretch;
+  background-color: #1F0040;
+  width: 1000px;
+  max-width: 600px;
+  margin: 15px;
+  /* flex-direction: column; */
+  border: 5px solid #D291FF;
 /* border-radius: 10px; */
 }
 
