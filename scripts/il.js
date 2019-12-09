@@ -1,4 +1,4 @@
-import { adobe } from "../data/adobedata.js";
+import { il } from "../data/ildata.js";
 
 const secContainer = document.createElement("div");
 secContainer.className = "secContainerp";
@@ -6,8 +6,8 @@ secContainer.className = "secContainerp";
 const figurep = document.createElement("div");
 figurep.className = "figurep";
 
-const allCars = adobe.map(myCar => {
-  let carsYeah = adobe.find(CAR => {
+const allCars = il.map(myCar => {
+  let carsYeah = il.find(CAR => {
     return CAR.name === myCar.name;
   });
 
