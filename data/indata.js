@@ -6,17 +6,17 @@ export const id = [
     "image": "/images/id/id1-test_Page_1.jpg",
     "ability1img": "/images/id/id1-test_Page_1.jpg",
     "ability2": "These next two photos are of an InDesign project I made to show a brochure.",
-    "description": "These next two photos are of an InDesign project I made to show a brochure."
+    "description": "First InDesign Project."
     },
 
     {
-        "name": "Second InDesign Project",
+        "name": "First InDesign Project",
         "short_name": "abathur",
         "attribute_id": "Abat",
         "image": "/images/id/id1-test_Page_3.jpg",
         "ability1img": "/images/id/id1-test_Page_3.jpg",
         "ability2": "I learned how to place and do non-destructive editing using InDesign.",
-        "description": "I learned how to place and do non-destructive editing using InDesign."
+        "description": "First InDesign Project."
         },
 
         {

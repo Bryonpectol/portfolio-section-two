@@ -1081,6 +1081,13 @@ button {
   height: 45px;
 }
 
+.aboutp {
+  color: white;
+  padding: 100px;
+  border: white solid 2px;
+  text-align: center;
+}
+
 .active {
   text-decoration: none;
   border: 2px solid #008080;
