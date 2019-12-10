@@ -10,7 +10,7 @@ export const id = [
     },
 
     {
-        "name": "First InDesign Project",
+        "name": "Same project as the one to the left.",
         "short_name": "abathur",
         "attribute_id": "Abat",
         "image": "/images/id/id1-test_Page_3.jpg",
@@ -25,7 +25,7 @@ export const id = [
             "attribute_id": "Abat",
             "image": "/images/id/herriman-high-santa-fundraiser-poster.jpg",
             "ability1img": "/images/id/herriman-high-santa-fundraiser-poster.jpg",
-            "ability2": "This is my poster I designed for a fundraiser for Herriman High School.",
+            "ability2": "This assignment was hard because we had to work as a group and with a third-party company to complete it. Which means there had to be a lot of good communication and sometimes it was hard to tell what the company wanted.",
             "description": "This is my poster I designed for a fundraiser for Herriman High School."
             },
 
