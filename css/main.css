@@ -338,6 +338,8 @@ footer {
 .footer-link {
   text-decoration: none;
   color: #9fedd7;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer p {
