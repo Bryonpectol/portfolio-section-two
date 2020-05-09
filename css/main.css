@@ -1,10 +1,10 @@
-* {
+No* {
   margin: 0px;
   padding: 0px;
 }
 
 body {
-  background-color: #EDEAE5;
+  background-color: white;
 }
 
 nav ul {
@@ -56,12 +56,12 @@ nav ul li a:hover {
 }
 
 .utldiv {
-  background-color: #edeae5;
+  background-color: white;
 }
 
 .myintro {
   top: 0;
-  background-color: #edeae5;
+  background-color: white;
   min-height: 55vh;
   padding-top: 45;
   line-height: 100vh;
@@ -71,7 +71,7 @@ nav ul li a:hover {
 
 .myintro1 {
   top: 0;
-  background-color: #edeae5;
+  background-color: white;
   min-height: 55vh;
   padding-top: 45;
   line-height: 100vh;
@@ -81,7 +81,7 @@ nav ul li a:hover {
 }
 
 .anotherdiv {
-  background-color: #edeae5;
+  background-color: white;
 }
 
 .hisintro {
@@ -89,7 +89,7 @@ nav ul li a:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   top: 0;
-  background-color: #edeae5;
+  background-color: white;
   justify-content: space-around;
   padding-top: 10vh;
   line-height: 100vh;
@@ -106,7 +106,7 @@ nav ul li a:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   top: 0;
-  background-color: #edeae5;
+  background-color: white;
   justify-content: space-around;
   padding-top: 10vh;
   line-height: 100vh;
